@@ -1,0 +1,4951 @@
+[
+    {
+        "district_code": 1,
+        "name": "Quận Ba Đình",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_1_c54fe33b"
+    },
+    {
+        "district_code": 2,
+        "name": "Quận Hoàn Kiếm",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_2_8f35266a"
+    },
+    {
+        "district_code": 1,
+        "name": "Quận Ba Đình",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_3_d3f7ec47"
+    },
+    {
+        "district_code": 2,
+        "name": "Quận Hoàn Kiếm",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_4_3b938c37"
+    },
+    {
+        "district_code": 3,
+        "name": "Quận Tây Hồ",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_5_ca5eade4"
+    },
+    {
+        "district_code": 4,
+        "name": "Quận Long Biên",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_6_27823890"
+    },
+    {
+        "district_code": 5,
+        "name": "Quận Cầu Giấy",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_7_7bfccc1b"
+    },
+    {
+        "district_code": 6,
+        "name": "Quận Đống Đa",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_8_81e14e32"
+    },
+    {
+        "district_code": 7,
+        "name": "Quận Hai Bà Trưng",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_9_06e0f4fd"
+    },
+    {
+        "district_code": 8,
+        "name": "Quận Hoàng Mai",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_10_51deb6cf"
+    },
+    {
+        "district_code": 9,
+        "name": "Quận Thanh Xuân",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_11_7a55f367"
+    },
+    {
+        "district_code": 16,
+        "name": "Sóc Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_12_6853f3fb"
+    },
+    {
+        "district_code": 17,
+        "name": "Đông Anh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_13_69425209"
+    },
+    {
+        "district_code": 18,
+        "name": "Gia Lâm",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_14_660f2123"
+    },
+    {
+        "district_code": 19,
+        "name": "Quận Nam Từ Liêm",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_15_2bc6daa7"
+    },
+    {
+        "district_code": 20,
+        "name": "Thanh Trì",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_16_ff7bc6e9"
+    },
+    {
+        "district_code": 21,
+        "name": "Quận Bắc Từ Liêm",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_17_2941f191"
+    },
+    {
+        "district_code": 250,
+        "name": "Mê Linh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_18_c8a9ac12"
+    },
+    {
+        "district_code": 268,
+        "name": "Quận Hà Đông",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_19_28079aa5"
+    },
+    {
+        "district_code": 269,
+        "name": "Thị xã Sơn Tây",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_20_5b2ee176"
+    },
+    {
+        "district_code": 271,
+        "name": "Ba Vì",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_21_93733fd3"
+    },
+    {
+        "district_code": 272,
+        "name": "Phúc Thọ",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_22_c525b9ef"
+    },
+    {
+        "district_code": 273,
+        "name": "Đan Phượng",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_23_dca113aa"
+    },
+    {
+        "district_code": 274,
+        "name": "Hoài Đức",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_24_b938f611"
+    },
+    {
+        "district_code": 275,
+        "name": "Quốc Oai",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_25_61b150eb"
+    },
+    {
+        "district_code": 276,
+        "name": "Thạch Thất",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_26_aa517dfc"
+    },
+    {
+        "district_code": 277,
+        "name": "Chương Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_27_9a3e7160"
+    },
+    {
+        "district_code": 278,
+        "name": "Thanh Oai",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_28_9ab596c6"
+    },
+    {
+        "district_code": 279,
+        "name": "Thường Tín",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_29_cd268a76"
+    },
+    {
+        "district_code": 280,
+        "name": "Phú Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_30_31c1fe24"
+    },
+    {
+        "district_code": 281,
+        "name": "Ứng Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_31_fb81f7f2"
+    },
+    {
+        "district_code": 282,
+        "name": "Mỹ Đức",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nội",
+        "id": "res_country_state_district_32_2a5936eb"
+    },
+    {
+        "district_code": 24,
+        "name": "Hà Giang",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_33_adfd6f1f"
+    },
+    {
+        "district_code": 26,
+        "name": "Đồng Văn",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_34_f01e2fcd"
+    },
+    {
+        "district_code": 27,
+        "name": "Mèo Vạc",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_35_c4e5de12"
+    },
+    {
+        "district_code": 28,
+        "name": "Yên Minh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_36_34544e99"
+    },
+    {
+        "district_code": 29,
+        "name": "Quản Bạ",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_37_fc659164"
+    },
+    {
+        "district_code": 30,
+        "name": "Vị Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_38_a3961003"
+    },
+    {
+        "district_code": 31,
+        "name": "Bắc Mê",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_39_62882551"
+    },
+    {
+        "district_code": 32,
+        "name": "Hoàng Su Phì",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_40_b71271d0"
+    },
+    {
+        "district_code": 33,
+        "name": "Xín Mần",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_41_8943415a"
+    },
+    {
+        "district_code": 34,
+        "name": "Bắc Quang",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_42_3be7e5e9"
+    },
+    {
+        "district_code": 35,
+        "name": "Quang Bình",
+        "country_id": "Vietnam",
+        "state_id": "Hà Giang",
+        "id": "res_country_state_district_43_95b3cf18"
+    },
+    {
+        "district_code": 40,
+        "name": "Cao Bằng",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_44_defe11bf"
+    },
+    {
+        "district_code": 42,
+        "name": "Bảo Lâm",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_45_d7c278f0"
+    },
+    {
+        "district_code": 43,
+        "name": "Bảo Lạc",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_46_2efa620e"
+    },
+    {
+        "district_code": 45,
+        "name": "Hà Quảng",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_47_060f02b4"
+    },
+    {
+        "district_code": 47,
+        "name": "Trùng Khánh",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_48_fe04aa54"
+    },
+    {
+        "district_code": 48,
+        "name": "Hạ Lang",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_49_1a176edd"
+    },
+    {
+        "district_code": 49,
+        "name": "Quảng Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_50_5b83bd02"
+    },
+    {
+        "district_code": 51,
+        "name": "Hoà An",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_51_e1426347"
+    },
+    {
+        "district_code": 52,
+        "name": "Nguyên Bình",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_52_7b97f918"
+    },
+    {
+        "district_code": 53,
+        "name": "Thạch An",
+        "country_id": "Vietnam",
+        "state_id": "Cao Bằng",
+        "id": "res_country_state_district_53_b3a3cfc7"
+    },
+    {
+        "district_code": 58,
+        "name": "Bắc Kạn",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_54_1e50d770"
+    },
+    {
+        "district_code": 60,
+        "name": "Pác Nặm",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_55_3f292656"
+    },
+    {
+        "district_code": 61,
+        "name": "Ba Bể",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_56_dcfb52c4"
+    },
+    {
+        "district_code": 62,
+        "name": "Ngân Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_57_733c9d60"
+    },
+    {
+        "district_code": 63,
+        "name": "Bạch Thông",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_58_0570944a"
+    },
+    {
+        "district_code": 64,
+        "name": "Chợ Đồn",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_59_c28e66de"
+    },
+    {
+        "district_code": 65,
+        "name": "Chợ Mới",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_60_4256d847"
+    },
+    {
+        "district_code": 66,
+        "name": "Na Rì",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Kạn",
+        "id": "res_country_state_district_61_83b354f9"
+    },
+    {
+        "district_code": 70,
+        "name": "Tuyên Quang",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_62_7b105da7"
+    },
+    {
+        "district_code": 71,
+        "name": "Lâm Bình",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_63_d09d6a65"
+    },
+    {
+        "district_code": 72,
+        "name": "Na Hang",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_64_68a246cb"
+    },
+    {
+        "district_code": 73,
+        "name": "Chiêm Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_65_84f2b176"
+    },
+    {
+        "district_code": 74,
+        "name": "Hàm Yên",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_66_ac998a6e"
+    },
+    {
+        "district_code": 75,
+        "name": "Yên Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_67_e1e1a85e"
+    },
+    {
+        "district_code": 76,
+        "name": "Sơn Dương",
+        "country_id": "Vietnam",
+        "state_id": "Tuyên Quang",
+        "id": "res_country_state_district_68_1d615566"
+    },
+    {
+        "district_code": 80,
+        "name": "Lào Cai",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_69_3ec3457f"
+    },
+    {
+        "district_code": 82,
+        "name": "Bát Xát",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_70_e253ab71"
+    },
+    {
+        "district_code": 83,
+        "name": "Mường Khương",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_71_0a7e7eff"
+    },
+    {
+        "district_code": 84,
+        "name": "Si Ma Cai",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_72_da984c22"
+    },
+    {
+        "district_code": 85,
+        "name": "Bắc Hà",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_73_f7d04e84"
+    },
+    {
+        "district_code": 86,
+        "name": "Bảo Thắng",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_74_38f21615"
+    },
+    {
+        "district_code": 87,
+        "name": "Bảo Yên",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_75_af2363e9"
+    },
+    {
+        "district_code": 88,
+        "name": "Thị xã Sa Pa",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_76_7200ffa0"
+    },
+    {
+        "district_code": 89,
+        "name": "Văn Bàn",
+        "country_id": "Vietnam",
+        "state_id": "Lào Cai",
+        "id": "res_country_state_district_77_0bb4ce88"
+    },
+    {
+        "district_code": 94,
+        "name": "Điện Biên Phủ",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_78_0158a206"
+    },
+    {
+        "district_code": 95,
+        "name": "Thị xã Mường Lay",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_79_6605188d"
+    },
+    {
+        "district_code": 96,
+        "name": "Mường Nhé",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_80_a3182d70"
+    },
+    {
+        "district_code": 97,
+        "name": "Mường Chà",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_81_742e4166"
+    },
+    {
+        "district_code": 98,
+        "name": "Tủa Chùa",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_82_43061aea"
+    },
+    {
+        "district_code": 99,
+        "name": "Tuần Giáo",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_83_e1f50137"
+    },
+    {
+        "district_code": 100,
+        "name": "Điện Biên",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_84_c213c4db"
+    },
+    {
+        "district_code": 101,
+        "name": "Điện Biên Đông",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_85_d419d439"
+    },
+    {
+        "district_code": 102,
+        "name": "Mường Ảng",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_86_03b1416d"
+    },
+    {
+        "district_code": 103,
+        "name": "Nậm Pồ",
+        "country_id": "Vietnam",
+        "state_id": "Điện Biên",
+        "id": "res_country_state_district_87_0ba1f348"
+    },
+    {
+        "district_code": 105,
+        "name": "Lai Châu",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_88_8bcb030d"
+    },
+    {
+        "district_code": 106,
+        "name": "Tam Đường",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_89_dbdd8924"
+    },
+    {
+        "district_code": 107,
+        "name": "Mường Tè",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_90_029cad20"
+    },
+    {
+        "district_code": 108,
+        "name": "Sìn Hồ",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_91_ba73ea96"
+    },
+    {
+        "district_code": 109,
+        "name": "Phong Thổ",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_92_50bfe299"
+    },
+    {
+        "district_code": 110,
+        "name": "Than Uyên",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_93_4b1f4ab3"
+    },
+    {
+        "district_code": 111,
+        "name": "Tân Uyên",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_94_90f1b3e5"
+    },
+    {
+        "district_code": 112,
+        "name": "Nậm Nhùn",
+        "country_id": "Vietnam",
+        "state_id": "Lai Châu",
+        "id": "res_country_state_district_95_bf7dac3c"
+    },
+    {
+        "district_code": 116,
+        "name": "Sơn La",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_96_74572668"
+    },
+    {
+        "district_code": 118,
+        "name": "Quỳnh Nhai",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_97_4dd7eb54"
+    },
+    {
+        "district_code": 119,
+        "name": "Thuận Châu",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_98_374db284"
+    },
+    {
+        "district_code": 120,
+        "name": "Mường La",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_99_7bfabb2f"
+    },
+    {
+        "district_code": 121,
+        "name": "Bắc Yên",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_100_65bcd213"
+    },
+    {
+        "district_code": 122,
+        "name": "Phù Yên",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_101_106ba81a"
+    },
+    {
+        "district_code": 123,
+        "name": "Mộc Châu",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_102_95081dd1"
+    },
+    {
+        "district_code": 124,
+        "name": "Yên Châu",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_103_d519a4f8"
+    },
+    {
+        "district_code": 125,
+        "name": "Mai Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_104_a8c118e9"
+    },
+    {
+        "district_code": 126,
+        "name": "Sông Mã",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_105_2cec2cbe"
+    },
+    {
+        "district_code": 127,
+        "name": "Sốp Cộp",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_106_7d980204"
+    },
+    {
+        "district_code": 128,
+        "name": "Vân Hồ",
+        "country_id": "Vietnam",
+        "state_id": "Sơn La",
+        "id": "res_country_state_district_107_9593d4de"
+    },
+    {
+        "district_code": 132,
+        "name": "Yên Bái",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_108_cca540f2"
+    },
+    {
+        "district_code": 133,
+        "name": "Thị xã Nghĩa Lộ",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_109_d9a8a627"
+    },
+    {
+        "district_code": 135,
+        "name": "Lục Yên",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_110_57918581"
+    },
+    {
+        "district_code": 136,
+        "name": "Văn Yên",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_111_c7cc3872"
+    },
+    {
+        "district_code": 137,
+        "name": "Mù Căng Chải",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_112_22946bbe"
+    },
+    {
+        "district_code": 138,
+        "name": "Trấn Yên",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_113_c5ba725d"
+    },
+    {
+        "district_code": 139,
+        "name": "Trạm Tấu",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_114_3b48f8e0"
+    },
+    {
+        "district_code": 140,
+        "name": "Văn Chấn",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_115_ebe15f93"
+    },
+    {
+        "district_code": 141,
+        "name": "Yên Bình",
+        "country_id": "Vietnam",
+        "state_id": "Yên Bái",
+        "id": "res_country_state_district_116_787aceb1"
+    },
+    {
+        "district_code": 148,
+        "name": "Hòa Bình",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_117_3beb26eb"
+    },
+    {
+        "district_code": 150,
+        "name": "Đà Bắc",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_118_31a8e0f4"
+    },
+    {
+        "district_code": 152,
+        "name": "Lương Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_119_f6d21a25"
+    },
+    {
+        "district_code": 153,
+        "name": "Kim Bôi",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_120_185a5155"
+    },
+    {
+        "district_code": 154,
+        "name": "Cao Phong",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_121_183793de"
+    },
+    {
+        "district_code": 155,
+        "name": "Tân Lạc",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_122_a8256854"
+    },
+    {
+        "district_code": 156,
+        "name": "Mai Châu",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_123_1576c93f"
+    },
+    {
+        "district_code": 157,
+        "name": "Lạc Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_124_ea0d7c33"
+    },
+    {
+        "district_code": 158,
+        "name": "Yên Thủy",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_125_2697d4b9"
+    },
+    {
+        "district_code": 159,
+        "name": "Lạc Thủy",
+        "country_id": "Vietnam",
+        "state_id": "Hòa Bình",
+        "id": "res_country_state_district_126_989a7ad7"
+    },
+    {
+        "district_code": 164,
+        "name": "Thái Nguyên",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_127_faf47bf9"
+    },
+    {
+        "district_code": 165,
+        "name": "Sông Công",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_128_9cda9819"
+    },
+    {
+        "district_code": 167,
+        "name": "Định Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_129_cf30c044"
+    },
+    {
+        "district_code": 168,
+        "name": "Phú Lương",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_130_d8eeb9dd"
+    },
+    {
+        "district_code": 169,
+        "name": "Đồng Hỷ",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_131_5d884fc5"
+    },
+    {
+        "district_code": 170,
+        "name": "Võ Nhai",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_132_46395506"
+    },
+    {
+        "district_code": 171,
+        "name": "Đại Từ",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_133_b0a0d384"
+    },
+    {
+        "district_code": 172,
+        "name": "Phổ Yên",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_134_a5af7b60"
+    },
+    {
+        "district_code": 173,
+        "name": "Phú Bình",
+        "country_id": "Vietnam",
+        "state_id": "Thái Nguyên",
+        "id": "res_country_state_district_135_f7677988"
+    },
+    {
+        "district_code": 178,
+        "name": "Lạng Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_136_ed2bac0a"
+    },
+    {
+        "district_code": 180,
+        "name": "Tràng Định",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_137_4060837b"
+    },
+    {
+        "district_code": 181,
+        "name": "Bình Gia",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_138_eaefc7e0"
+    },
+    {
+        "district_code": 182,
+        "name": "Văn Lãng",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_139_461483ca"
+    },
+    {
+        "district_code": 183,
+        "name": "Cao Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_140_ac507005"
+    },
+    {
+        "district_code": 184,
+        "name": "Văn Quan",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_141_a0caddea"
+    },
+    {
+        "district_code": 185,
+        "name": "Bắc Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_142_0d00b612"
+    },
+    {
+        "district_code": 186,
+        "name": "Hữu Lũng",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_143_adc1c249"
+    },
+    {
+        "district_code": 187,
+        "name": "Chi Lăng",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_144_0206aa4b"
+    },
+    {
+        "district_code": 188,
+        "name": "Lộc Bình",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_145_8ca3176e"
+    },
+    {
+        "district_code": 189,
+        "name": "Đình Lập",
+        "country_id": "Vietnam",
+        "state_id": "Lạng Sơn",
+        "id": "res_country_state_district_146_00f6c24d"
+    },
+    {
+        "district_code": 193,
+        "name": "Hạ Long",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_147_572ee684"
+    },
+    {
+        "district_code": 194,
+        "name": "Móng Cái",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_148_84c274c6"
+    },
+    {
+        "district_code": 195,
+        "name": "Cẩm Phả",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_149_c2c27111"
+    },
+    {
+        "district_code": 196,
+        "name": "Uông Bí",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_150_76205d0c"
+    },
+    {
+        "district_code": 198,
+        "name": "Bình Liêu",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_151_a61afe62"
+    },
+    {
+        "district_code": 199,
+        "name": "Tiên Yên",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_152_708d7092"
+    },
+    {
+        "district_code": 200,
+        "name": "Đầm Hà",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_153_e299a91b"
+    },
+    {
+        "district_code": 201,
+        "name": "Hải Hà",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_154_06953418"
+    },
+    {
+        "district_code": 202,
+        "name": "Ba Chẽ",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_155_baf6ed99"
+    },
+    {
+        "district_code": 203,
+        "name": "Vân Đồn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_156_3eb22779"
+    },
+    {
+        "district_code": 205,
+        "name": "Thị xã Đông Triều",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_157_e75133ad"
+    },
+    {
+        "district_code": 206,
+        "name": "Thị xã Quảng Yên",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_158_c8befa84"
+    },
+    {
+        "district_code": 207,
+        "name": "Cô Tô",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ninh",
+        "id": "res_country_state_district_159_3af4bfe7"
+    },
+    {
+        "district_code": 213,
+        "name": "Bắc Giang",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_160_d3cd4a19"
+    },
+    {
+        "district_code": 215,
+        "name": "Yên Thế",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_161_8f8e8288"
+    },
+    {
+        "district_code": 216,
+        "name": "Tân Yên",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_162_0ae83595"
+    },
+    {
+        "district_code": 217,
+        "name": "Lạng Giang",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_163_c5d81dad"
+    },
+    {
+        "district_code": 218,
+        "name": "Lục Nam",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_164_a1cfebe1"
+    },
+    {
+        "district_code": 219,
+        "name": "Lục Ngạn",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_165_c911b29f"
+    },
+    {
+        "district_code": 220,
+        "name": "Sơn Động",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_166_21acf364"
+    },
+    {
+        "district_code": 221,
+        "name": "Yên Dũng",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_167_1040e012"
+    },
+    {
+        "district_code": 222,
+        "name": "Việt Yên",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_168_bef1a88e"
+    },
+    {
+        "district_code": 223,
+        "name": "Hiệp Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Giang",
+        "id": "res_country_state_district_169_670f5c35"
+    },
+    {
+        "district_code": 227,
+        "name": "Việt Trì",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_170_23191ea0"
+    },
+    {
+        "district_code": 228,
+        "name": "Thị xã Phú Thọ",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_171_1beb3721"
+    },
+    {
+        "district_code": 230,
+        "name": "Đoan Hùng",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_172_0214572f"
+    },
+    {
+        "district_code": 231,
+        "name": "Hạ Hoà",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_173_93afdad9"
+    },
+    {
+        "district_code": 232,
+        "name": "Thanh Ba",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_174_4275b518"
+    },
+    {
+        "district_code": 233,
+        "name": "Phù Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_175_8d7db3de"
+    },
+    {
+        "district_code": 234,
+        "name": "Yên Lập",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_176_a412a347"
+    },
+    {
+        "district_code": 235,
+        "name": "Cẩm Khê",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_177_2051c76a"
+    },
+    {
+        "district_code": 236,
+        "name": "Tam Nông",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_178_15dcbd21"
+    },
+    {
+        "district_code": 237,
+        "name": "Lâm Thao",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_179_76affc73"
+    },
+    {
+        "district_code": 238,
+        "name": "Thanh Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_180_fea07375"
+    },
+    {
+        "district_code": 239,
+        "name": "Thanh Thuỷ",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_181_79fb27ec"
+    },
+    {
+        "district_code": 240,
+        "name": "Tân Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Phú Thọ",
+        "id": "res_country_state_district_182_7c9f9d80"
+    },
+    {
+        "district_code": 243,
+        "name": "Vĩnh Yên",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_183_3e050432"
+    },
+    {
+        "district_code": 244,
+        "name": "Phúc Yên",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_184_71d19ef9"
+    },
+    {
+        "district_code": 246,
+        "name": "Lập Thạch",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_185_b29c7260"
+    },
+    {
+        "district_code": 247,
+        "name": "Tam Dương",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_186_451b85b1"
+    },
+    {
+        "district_code": 248,
+        "name": "Tam Đảo",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_187_d0966ae8"
+    },
+    {
+        "district_code": 249,
+        "name": "Bình Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_188_90452142"
+    },
+    {
+        "district_code": 251,
+        "name": "Yên Lạc",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_189_8b52daf9"
+    },
+    {
+        "district_code": 252,
+        "name": "Vĩnh Tường",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_190_7ef08223"
+    },
+    {
+        "district_code": 253,
+        "name": "Sông Lô",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Phúc",
+        "id": "res_country_state_district_191_546d3226"
+    },
+    {
+        "district_code": 256,
+        "name": "Bắc Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_192_c4e2fda9"
+    },
+    {
+        "district_code": 258,
+        "name": "Yên Phong",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_193_a12526eb"
+    },
+    {
+        "district_code": 259,
+        "name": "Thị xã Quế Võ",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_194_89908f1c"
+    },
+    {
+        "district_code": 260,
+        "name": "Tiên Du",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_195_629ae292"
+    },
+    {
+        "district_code": 261,
+        "name": "Từ Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_196_b65e1c01"
+    },
+    {
+        "district_code": 262,
+        "name": "Thị xã Thuận Thành",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_197_6e3062fc"
+    },
+    {
+        "district_code": 263,
+        "name": "Gia Bình",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_198_3fe80961"
+    },
+    {
+        "district_code": 264,
+        "name": "Lương Tài",
+        "country_id": "Vietnam",
+        "state_id": "Bắc Ninh",
+        "id": "res_country_state_district_199_cff2a5e7"
+    },
+    {
+        "district_code": 288,
+        "name": "Hải Dương",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_200_a8b0055a"
+    },
+    {
+        "district_code": 290,
+        "name": "Chí Linh",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_201_d5edbf2f"
+    },
+    {
+        "district_code": 291,
+        "name": "Nam Sách",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_202_934230f9"
+    },
+    {
+        "district_code": 292,
+        "name": "Thị xã Kinh Môn",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_203_91eb033e"
+    },
+    {
+        "district_code": 293,
+        "name": "Kim Thành",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_204_d3168b81"
+    },
+    {
+        "district_code": 294,
+        "name": "Thanh Hà",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_205_92c0a13c"
+    },
+    {
+        "district_code": 295,
+        "name": "Cẩm Giàng",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_206_7544f995"
+    },
+    {
+        "district_code": 296,
+        "name": "Bình Giang",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_207_de935d5b"
+    },
+    {
+        "district_code": 297,
+        "name": "Gia Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_208_72fb79a6"
+    },
+    {
+        "district_code": 298,
+        "name": "Tứ Kỳ",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_209_6545b33b"
+    },
+    {
+        "district_code": 299,
+        "name": "Ninh Giang",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_210_287b2aac"
+    },
+    {
+        "district_code": 300,
+        "name": "Thanh Miện",
+        "country_id": "Vietnam",
+        "state_id": "Hải Dương",
+        "id": "res_country_state_district_211_c41261a7"
+    },
+    {
+        "district_code": 303,
+        "name": "Quận Hồng Bàng",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_212_0970a896"
+    },
+    {
+        "district_code": 304,
+        "name": "Quận Ngô Quyền",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_213_ebf6ed2b"
+    },
+    {
+        "district_code": 305,
+        "name": "Quận Lê Chân",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_214_60a0b9d1"
+    },
+    {
+        "district_code": 306,
+        "name": "Quận Hải An",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_215_85beca14"
+    },
+    {
+        "district_code": 307,
+        "name": "Quận Kiến An",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_216_bb8c83ee"
+    },
+    {
+        "district_code": 308,
+        "name": "Quận Đồ Sơn",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_217_eeaf0f5e"
+    },
+    {
+        "district_code": 309,
+        "name": "Quận Dương Kinh",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_218_1b37707f"
+    },
+    {
+        "district_code": 311,
+        "name": "Thuỷ Nguyên",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_219_e5e0892b"
+    },
+    {
+        "district_code": 312,
+        "name": "An Dương",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_220_2a10a2cf"
+    },
+    {
+        "district_code": 313,
+        "name": "An Lão",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_221_0892cea3"
+    },
+    {
+        "district_code": 314,
+        "name": "Kiến Thuỵ",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_222_8e4f2c45"
+    },
+    {
+        "district_code": 315,
+        "name": "Tiên Lãng",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_223_427c4448"
+    },
+    {
+        "district_code": 316,
+        "name": "Vĩnh Bảo",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_224_da401140"
+    },
+    {
+        "district_code": 317,
+        "name": "Cát Hải",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_225_d714179f"
+    },
+    {
+        "district_code": 318,
+        "name": "Bạch Long Vĩ",
+        "country_id": "Vietnam",
+        "state_id": "TP Hải Phòng",
+        "id": "res_country_state_district_226_4c591109"
+    },
+    {
+        "district_code": 323,
+        "name": "Hưng Yên",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_227_aac2e4b7"
+    },
+    {
+        "district_code": 325,
+        "name": "Văn Lâm",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_228_9c45cd7c"
+    },
+    {
+        "district_code": 326,
+        "name": "Văn Giang",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_229_85b18db4"
+    },
+    {
+        "district_code": 327,
+        "name": "Yên Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_230_95693dfb"
+    },
+    {
+        "district_code": 328,
+        "name": "Thị xã Mỹ Hào",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_231_24a57089"
+    },
+    {
+        "district_code": 329,
+        "name": "Ân Thi",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_232_529206ee"
+    },
+    {
+        "district_code": 330,
+        "name": "Khoái Châu",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_233_3af1f2af"
+    },
+    {
+        "district_code": 331,
+        "name": "Kim Động",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_234_7d843f9b"
+    },
+    {
+        "district_code": 332,
+        "name": "Tiên Lữ",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_235_12e2a141"
+    },
+    {
+        "district_code": 333,
+        "name": "Phù Cừ",
+        "country_id": "Vietnam",
+        "state_id": "Hưng Yên",
+        "id": "res_country_state_district_236_cd9666f8"
+    },
+    {
+        "district_code": 336,
+        "name": "Thái Bình",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_237_bebc5ca4"
+    },
+    {
+        "district_code": 338,
+        "name": "Quỳnh Phụ",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_238_8b627083"
+    },
+    {
+        "district_code": 339,
+        "name": "Hưng Hà",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_239_575da2c5"
+    },
+    {
+        "district_code": 340,
+        "name": "Đông Hưng",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_240_fb4d77e2"
+    },
+    {
+        "district_code": 341,
+        "name": "Thái Thụy",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_241_cc48db0d"
+    },
+    {
+        "district_code": 342,
+        "name": "Tiền Hải",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_242_441e1bd1"
+    },
+    {
+        "district_code": 343,
+        "name": "Kiến Xương",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_243_26e267ac"
+    },
+    {
+        "district_code": 344,
+        "name": "Vũ Thư",
+        "country_id": "Vietnam",
+        "state_id": "Thái Bình",
+        "id": "res_country_state_district_244_ecc14b73"
+    },
+    {
+        "district_code": 347,
+        "name": "Phủ Lý",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nam",
+        "id": "res_country_state_district_245_6b8bc9b2"
+    },
+    {
+        "district_code": 349,
+        "name": "Thị xã Duy Tiên",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nam",
+        "id": "res_country_state_district_246_7c40d84f"
+    },
+    {
+        "district_code": 350,
+        "name": "Kim Bảng",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nam",
+        "id": "res_country_state_district_247_43fefb7d"
+    },
+    {
+        "district_code": 351,
+        "name": "Thanh Liêm",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nam",
+        "id": "res_country_state_district_248_aac18a4d"
+    },
+    {
+        "district_code": 352,
+        "name": "Bình Lục",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nam",
+        "id": "res_country_state_district_249_6c93af53"
+    },
+    {
+        "district_code": 353,
+        "name": "Lý Nhân",
+        "country_id": "Vietnam",
+        "state_id": "Hà Nam",
+        "id": "res_country_state_district_250_fe69a9b4"
+    },
+    {
+        "district_code": 356,
+        "name": "Nam Định",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_251_243cd518"
+    },
+    {
+        "district_code": 358,
+        "name": "Mỹ Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_252_c665c2b6"
+    },
+    {
+        "district_code": 359,
+        "name": "Vụ Bản",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_253_d609aac9"
+    },
+    {
+        "district_code": 360,
+        "name": "Ý Yên",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_254_9dacd70e"
+    },
+    {
+        "district_code": 361,
+        "name": "Nghĩa Hưng",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_255_29a87e68"
+    },
+    {
+        "district_code": 362,
+        "name": "Nam Trực",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_256_1f8bbbf0"
+    },
+    {
+        "district_code": 363,
+        "name": "Trực Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_257_9f8df12b"
+    },
+    {
+        "district_code": 364,
+        "name": "Xuân Trường",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_258_667c6dfe"
+    },
+    {
+        "district_code": 365,
+        "name": "Giao Thủy",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_259_18fc944d"
+    },
+    {
+        "district_code": 366,
+        "name": "Hải Hậu",
+        "country_id": "Vietnam",
+        "state_id": "Nam Định",
+        "id": "res_country_state_district_260_a07c5fe0"
+    },
+    {
+        "district_code": 369,
+        "name": "Ninh Bình",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_261_2e4e42ea"
+    },
+    {
+        "district_code": 370,
+        "name": "Tam Điệp",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_262_b0163994"
+    },
+    {
+        "district_code": 372,
+        "name": "Nho Quan",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_263_c7dcb68b"
+    },
+    {
+        "district_code": 373,
+        "name": "Gia Viễn",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_264_bd9214d5"
+    },
+    {
+        "district_code": 374,
+        "name": "Hoa Lư",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_265_eda8c369"
+    },
+    {
+        "district_code": 375,
+        "name": "Yên Khánh",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_266_c17bae1d"
+    },
+    {
+        "district_code": 376,
+        "name": "Kim Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_267_ee16902f"
+    },
+    {
+        "district_code": 377,
+        "name": "Yên Mô",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Bình",
+        "id": "res_country_state_district_268_77ac85de"
+    },
+    {
+        "district_code": 380,
+        "name": "Thanh Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_269_3197e341"
+    },
+    {
+        "district_code": 381,
+        "name": "Thị xã Bỉm Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_270_e672041a"
+    },
+    {
+        "district_code": 382,
+        "name": "Sầm Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_271_d4b4901a"
+    },
+    {
+        "district_code": 384,
+        "name": "Mường Lát",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_272_bd1e4828"
+    },
+    {
+        "district_code": 385,
+        "name": "Quan Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_273_442f2a5c"
+    },
+    {
+        "district_code": 386,
+        "name": "Bá Thước",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_274_ee48678c"
+    },
+    {
+        "district_code": 387,
+        "name": "Quan Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_275_71dd3950"
+    },
+    {
+        "district_code": 388,
+        "name": "Lang Chánh",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_276_b1e8c54f"
+    },
+    {
+        "district_code": 389,
+        "name": "Ngọc Lặc",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_277_c1132a6a"
+    },
+    {
+        "district_code": 390,
+        "name": "Cẩm Thủy",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_278_9a8a3198"
+    },
+    {
+        "district_code": 391,
+        "name": "Thạch Thành",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_279_e92c9083"
+    },
+    {
+        "district_code": 392,
+        "name": "Hà Trung",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_280_b2ab8674"
+    },
+    {
+        "district_code": 393,
+        "name": "Vĩnh Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_281_8091442f"
+    },
+    {
+        "district_code": 394,
+        "name": "Yên Định",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_282_ffdf3df2"
+    },
+    {
+        "district_code": 395,
+        "name": "Thọ Xuân",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_283_ee4d533c"
+    },
+    {
+        "district_code": 396,
+        "name": "Thường Xuân",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_284_050d9c87"
+    },
+    {
+        "district_code": 397,
+        "name": "Triệu Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_285_f49006b1"
+    },
+    {
+        "district_code": 398,
+        "name": "Thiệu Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_286_c1367623"
+    },
+    {
+        "district_code": 399,
+        "name": "Hoằng Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_287_4bcb5763"
+    },
+    {
+        "district_code": 400,
+        "name": "Hậu Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_288_fc73050d"
+    },
+    {
+        "district_code": 401,
+        "name": "Nga Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_289_678c37a9"
+    },
+    {
+        "district_code": 402,
+        "name": "Như Xuân",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_290_da78c4d1"
+    },
+    {
+        "district_code": 403,
+        "name": "Như Thanh",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_291_5f7971c6"
+    },
+    {
+        "district_code": 404,
+        "name": "Nông Cống",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_292_2ea75b78"
+    },
+    {
+        "district_code": 405,
+        "name": "Đông Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_293_201e50a0"
+    },
+    {
+        "district_code": 406,
+        "name": "Quảng Xương",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_294_ab13b6a1"
+    },
+    {
+        "district_code": 407,
+        "name": "Thị xã Nghi Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Thanh Hóa",
+        "id": "res_country_state_district_295_c46d1293"
+    },
+    {
+        "district_code": 412,
+        "name": "Vinh",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_296_d482eed0"
+    },
+    {
+        "district_code": 413,
+        "name": "Thị xã Cửa Lò",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_297_fafcb991"
+    },
+    {
+        "district_code": 414,
+        "name": "Thị xã Thái Hoà",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_298_a6c89b3b"
+    },
+    {
+        "district_code": 415,
+        "name": "Quế Phong",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_299_6c814489"
+    },
+    {
+        "district_code": 416,
+        "name": "Quỳ Châu",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_300_28aaa95a"
+    },
+    {
+        "district_code": 417,
+        "name": "Kỳ Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_301_90bd25ae"
+    },
+    {
+        "district_code": 418,
+        "name": "Tương Dương",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_302_9cac42fb"
+    },
+    {
+        "district_code": 419,
+        "name": "Nghĩa Đàn",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_303_7a05f845"
+    },
+    {
+        "district_code": 420,
+        "name": "Quỳ Hợp",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_304_ea0a0b08"
+    },
+    {
+        "district_code": 421,
+        "name": "Quỳnh Lưu",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_305_a4a28d8b"
+    },
+    {
+        "district_code": 422,
+        "name": "Con Cuông",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_306_32cd7a0e"
+    },
+    {
+        "district_code": 423,
+        "name": "Tân Kỳ",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_307_05e343d1"
+    },
+    {
+        "district_code": 424,
+        "name": "Anh Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_308_988493c1"
+    },
+    {
+        "district_code": 425,
+        "name": "Diễn Châu",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_309_c7f4fa6f"
+    },
+    {
+        "district_code": 426,
+        "name": "Yên Thành",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_310_fba7bac7"
+    },
+    {
+        "district_code": 427,
+        "name": "Đô Lương",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_311_6849c852"
+    },
+    {
+        "district_code": 428,
+        "name": "Thanh Chương",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_312_48adc561"
+    },
+    {
+        "district_code": 429,
+        "name": "Nghi Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_313_3bbcdc46"
+    },
+    {
+        "district_code": 430,
+        "name": "Nam Đàn",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_314_ee0549ce"
+    },
+    {
+        "district_code": 431,
+        "name": "Hưng Nguyên",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_315_8256b415"
+    },
+    {
+        "district_code": 432,
+        "name": "Thị xã Hoàng Mai",
+        "country_id": "Vietnam",
+        "state_id": "Nghệ An",
+        "id": "res_country_state_district_316_b961fe69"
+    },
+    {
+        "district_code": 436,
+        "name": "Hà Tĩnh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_317_97b9da35"
+    },
+    {
+        "district_code": 437,
+        "name": "Thị xã Hồng Lĩnh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_318_50c33101"
+    },
+    {
+        "district_code": 439,
+        "name": "Hương Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_319_63f8c961"
+    },
+    {
+        "district_code": 440,
+        "name": "Đức Thọ",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_320_daafcfac"
+    },
+    {
+        "district_code": 441,
+        "name": "Vũ Quang",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_321_5bf1450d"
+    },
+    {
+        "district_code": 442,
+        "name": "Nghi Xuân",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_322_57aa62df"
+    },
+    {
+        "district_code": 443,
+        "name": "Can Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_323_5743e44c"
+    },
+    {
+        "district_code": 444,
+        "name": "Hương Khê",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_324_5a50bd41"
+    },
+    {
+        "district_code": 445,
+        "name": "Thạch Hà",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_325_26cab5b3"
+    },
+    {
+        "district_code": 446,
+        "name": "Cẩm Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_326_f51234c9"
+    },
+    {
+        "district_code": 447,
+        "name": "Kỳ Anh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_327_b7c1d0b3"
+    },
+    {
+        "district_code": 448,
+        "name": "Lộc Hà",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_328_0d312271"
+    },
+    {
+        "district_code": 449,
+        "name": "Thị xã Kỳ Anh",
+        "country_id": "Vietnam",
+        "state_id": "Hà Tĩnh",
+        "id": "res_country_state_district_329_c654a36a"
+    },
+    {
+        "district_code": 450,
+        "name": "Đồng Hới",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_330_7b26153f"
+    },
+    {
+        "district_code": 452,
+        "name": "Minh Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_331_6c9b935d"
+    },
+    {
+        "district_code": 453,
+        "name": "Tuyên Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_332_4c39656e"
+    },
+    {
+        "district_code": 454,
+        "name": "Quảng Trạch",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_333_43c3af6d"
+    },
+    {
+        "district_code": 455,
+        "name": "Bố Trạch",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_334_1091a6ea"
+    },
+    {
+        "district_code": 456,
+        "name": "Quảng Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_335_1702f957"
+    },
+    {
+        "district_code": 457,
+        "name": "Lệ Thủy",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_336_b45051bd"
+    },
+    {
+        "district_code": 458,
+        "name": "Thị xã Ba Đồn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Bình",
+        "id": "res_country_state_district_337_650b2995"
+    },
+    {
+        "district_code": 461,
+        "name": "Đông Hà",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_338_7cd7666c"
+    },
+    {
+        "district_code": 462,
+        "name": "Thị xã Quảng Trị",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_339_4ef6ce4e"
+    },
+    {
+        "district_code": 464,
+        "name": "Vĩnh Linh",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_340_815d1e2c"
+    },
+    {
+        "district_code": 465,
+        "name": "Hướng Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_341_36ea1bd3"
+    },
+    {
+        "district_code": 466,
+        "name": "Gio Linh",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_342_a988ed54"
+    },
+    {
+        "district_code": 467,
+        "name": "Đa Krông",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_343_a7543082"
+    },
+    {
+        "district_code": 468,
+        "name": "Cam Lộ",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_344_36f6a1ec"
+    },
+    {
+        "district_code": 469,
+        "name": "Triệu Phong",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_345_d3ff5ddf"
+    },
+    {
+        "district_code": 470,
+        "name": "Hải Lăng",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_346_ba36457e"
+    },
+    {
+        "district_code": 471,
+        "name": "Cồn Cỏ",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Trị",
+        "id": "res_country_state_district_347_16dc1470"
+    },
+    {
+        "district_code": 474,
+        "name": "Huế",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_348_3f8b8fe2"
+    },
+    {
+        "district_code": 476,
+        "name": "Phong Điền",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_349_16984ee3"
+    },
+    {
+        "district_code": 477,
+        "name": "Quảng Điền",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_350_7a43a66e"
+    },
+    {
+        "district_code": 478,
+        "name": "Phú Vang",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_351_bba50d1d"
+    },
+    {
+        "district_code": 479,
+        "name": "Thị xã Hương Thủy",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_352_17718178"
+    },
+    {
+        "district_code": 480,
+        "name": "Thị xã Hương Trà",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_353_677837a1"
+    },
+    {
+        "district_code": 481,
+        "name": "A Lưới",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_354_1261c99c"
+    },
+    {
+        "district_code": 482,
+        "name": "Phú Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_355_aa3cde38"
+    },
+    {
+        "district_code": 483,
+        "name": "Nam Đông",
+        "country_id": "Vietnam",
+        "state_id": "Thừa Thiên - Huế",
+        "id": "res_country_state_district_356_35e10164"
+    },
+    {
+        "district_code": 490,
+        "name": "Quận Liên Chiểu",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_357_88e534a3"
+    },
+    {
+        "district_code": 491,
+        "name": "Quận Thanh Khê",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_358_9874de70"
+    },
+    {
+        "district_code": 492,
+        "name": "Quận Hải Châu",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_359_db8094be"
+    },
+    {
+        "district_code": 493,
+        "name": "Quận Sơn Trà",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_360_fec2d53e"
+    },
+    {
+        "district_code": 494,
+        "name": "Quận Ngũ Hành Sơn",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_361_22701c7d"
+    },
+    {
+        "district_code": 495,
+        "name": "Quận Cẩm Lệ",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_362_25b773da"
+    },
+    {
+        "district_code": 497,
+        "name": "Hòa Vang",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_363_fc9b3c8a"
+    },
+    {
+        "district_code": 498,
+        "name": "Hoàng Sa",
+        "country_id": "Vietnam",
+        "state_id": "TP Đà Nẵng",
+        "id": "res_country_state_district_364_14ab5251"
+    },
+    {
+        "district_code": 502,
+        "name": "Tam Kỳ",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_365_5337b9ef"
+    },
+    {
+        "district_code": 503,
+        "name": "Hội An",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_366_3a0098ae"
+    },
+    {
+        "district_code": 504,
+        "name": "Tây Giang",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_367_2bc13115"
+    },
+    {
+        "district_code": 505,
+        "name": "Đông Giang",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_368_7a857270"
+    },
+    {
+        "district_code": 506,
+        "name": "Đại Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_369_72c7e973"
+    },
+    {
+        "district_code": 507,
+        "name": "Thị xã Điện Bàn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_370_5b2dd0b4"
+    },
+    {
+        "district_code": 508,
+        "name": "Duy Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_371_a2819797"
+    },
+    {
+        "district_code": 509,
+        "name": "Quế Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_372_787fb6c3"
+    },
+    {
+        "district_code": 510,
+        "name": "Nam Giang",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_373_267dee01"
+    },
+    {
+        "district_code": 511,
+        "name": "Phước Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_374_f00a030a"
+    },
+    {
+        "district_code": 512,
+        "name": "Hiệp Đức",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_375_29c9beea"
+    },
+    {
+        "district_code": 513,
+        "name": "Thăng Bình",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_376_7684959e"
+    },
+    {
+        "district_code": 514,
+        "name": "Tiên Phước",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_377_f31fe43f"
+    },
+    {
+        "district_code": 515,
+        "name": "Bắc Trà My",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_378_6bd62cea"
+    },
+    {
+        "district_code": 516,
+        "name": "Nam Trà My",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_379_fd233511"
+    },
+    {
+        "district_code": 517,
+        "name": "Núi Thành",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_380_9ac415de"
+    },
+    {
+        "district_code": 518,
+        "name": "Phú Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_381_23536930"
+    },
+    {
+        "district_code": 519,
+        "name": "Nông Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Nam",
+        "id": "res_country_state_district_382_438c13eb"
+    },
+    {
+        "district_code": 522,
+        "name": "Quảng Ngãi",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_383_7edc69ad"
+    },
+    {
+        "district_code": 524,
+        "name": "Bình Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_384_08469251"
+    },
+    {
+        "district_code": 525,
+        "name": "Trà Bồng",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_385_5c1eb4f5"
+    },
+    {
+        "district_code": 527,
+        "name": "Sơn Tịnh",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_386_1246512f"
+    },
+    {
+        "district_code": 528,
+        "name": "Tư Nghĩa",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_387_9431cd7a"
+    },
+    {
+        "district_code": 529,
+        "name": "Sơn Hà",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_388_7ce35d7e"
+    },
+    {
+        "district_code": 530,
+        "name": "Sơn Tây",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_389_ef919670"
+    },
+    {
+        "district_code": 531,
+        "name": "Minh Long",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_390_4f62ffea"
+    },
+    {
+        "district_code": 532,
+        "name": "Nghĩa Hành",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_391_7c43bd9b"
+    },
+    {
+        "district_code": 533,
+        "name": "Mộ Đức",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_392_657912b0"
+    },
+    {
+        "district_code": 534,
+        "name": "Thị xã Đức Phổ",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_393_dcb11941"
+    },
+    {
+        "district_code": 535,
+        "name": "Ba Tơ",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_394_e8fb785f"
+    },
+    {
+        "district_code": 536,
+        "name": "Lý Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Quảng Ngãi",
+        "id": "res_country_state_district_395_fa865cab"
+    },
+    {
+        "district_code": 540,
+        "name": "Quy Nhơn",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_396_227ffb5d"
+    },
+    {
+        "district_code": 542,
+        "name": "An Lão",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_397_9e596959"
+    },
+    {
+        "district_code": 543,
+        "name": "Thị xã Hoài Nhơn",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_398_1a71b319"
+    },
+    {
+        "district_code": 544,
+        "name": "Hoài Ân",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_399_127957cc"
+    },
+    {
+        "district_code": 545,
+        "name": "Phù Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_400_8e4051cf"
+    },
+    {
+        "district_code": 546,
+        "name": "Vĩnh Thạnh",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_401_6005b37d"
+    },
+    {
+        "district_code": 547,
+        "name": "Tây Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_402_5e298128"
+    },
+    {
+        "district_code": 548,
+        "name": "Phù Cát",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_403_ab20e83a"
+    },
+    {
+        "district_code": 549,
+        "name": "Thị xã An Nhơn",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_404_6e398208"
+    },
+    {
+        "district_code": 550,
+        "name": "Tuy Phước",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_405_59eba540"
+    },
+    {
+        "district_code": 551,
+        "name": "Vân Canh",
+        "country_id": "Vietnam",
+        "state_id": "Bình Định",
+        "id": "res_country_state_district_406_3fa48f01"
+    },
+    {
+        "district_code": 555,
+        "name": "Tuy Hoà",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_407_fd2c21a0"
+    },
+    {
+        "district_code": 557,
+        "name": "Thị xã Sông Cầu",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_408_1c43c4f4"
+    },
+    {
+        "district_code": 558,
+        "name": "Đồng Xuân",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_409_cebe0f25"
+    },
+    {
+        "district_code": 559,
+        "name": "Tuy An",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_410_534ba0c9"
+    },
+    {
+        "district_code": 560,
+        "name": "Sơn Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_411_b14b3529"
+    },
+    {
+        "district_code": 561,
+        "name": "Sông Hinh",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_412_d0e4c008"
+    },
+    {
+        "district_code": 562,
+        "name": "Tây Hoà",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_413_be9573d0"
+    },
+    {
+        "district_code": 563,
+        "name": "Phú Hoà",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_414_94e52d46"
+    },
+    {
+        "district_code": 564,
+        "name": "Thị xã Đông Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Phú Yên",
+        "id": "res_country_state_district_415_68b28599"
+    },
+    {
+        "district_code": 568,
+        "name": "Nha Trang",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_416_b548b6b3"
+    },
+    {
+        "district_code": 569,
+        "name": "Cam Ranh",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_417_bc3ec0e8"
+    },
+    {
+        "district_code": 570,
+        "name": "Cam Lâm",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_418_9ad900ee"
+    },
+    {
+        "district_code": 571,
+        "name": "Vạn Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_419_330ccfc0"
+    },
+    {
+        "district_code": 572,
+        "name": "Thị xã Ninh Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_420_415d4749"
+    },
+    {
+        "district_code": 573,
+        "name": "Khánh Vĩnh",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_421_c9d9bbe5"
+    },
+    {
+        "district_code": 574,
+        "name": "Diên Khánh",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_422_e5dc4182"
+    },
+    {
+        "district_code": 575,
+        "name": "Khánh Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_423_1e408d65"
+    },
+    {
+        "district_code": 576,
+        "name": "Trường Sa",
+        "country_id": "Vietnam",
+        "state_id": "Khánh Hòa",
+        "id": "res_country_state_district_424_0165b549"
+    },
+    {
+        "district_code": 582,
+        "name": "Phan Rang-Tháp Chàm",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_425_b80f5228"
+    },
+    {
+        "district_code": 584,
+        "name": "Bác Ái",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_426_f24db7c3"
+    },
+    {
+        "district_code": 585,
+        "name": "Ninh Sơn",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_427_144c6411"
+    },
+    {
+        "district_code": 586,
+        "name": "Ninh Hải",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_428_3a2253c8"
+    },
+    {
+        "district_code": 587,
+        "name": "Ninh Phước",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_429_1f8030dc"
+    },
+    {
+        "district_code": 588,
+        "name": "Thuận Bắc",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_430_87867e37"
+    },
+    {
+        "district_code": 589,
+        "name": "Thuận Nam",
+        "country_id": "Vietnam",
+        "state_id": "Ninh Thuận",
+        "id": "res_country_state_district_431_1554db15"
+    },
+    {
+        "district_code": 593,
+        "name": "Phan Thiết",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_432_3decd42b"
+    },
+    {
+        "district_code": 594,
+        "name": "Thị xã La Gi",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_433_59be3b1e"
+    },
+    {
+        "district_code": 595,
+        "name": "Tuy Phong",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_434_d7ba5fca"
+    },
+    {
+        "district_code": 596,
+        "name": "Bắc Bình",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_435_891e9771"
+    },
+    {
+        "district_code": 597,
+        "name": "Hàm Thuận Bắc",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_436_61dab771"
+    },
+    {
+        "district_code": 598,
+        "name": "Hàm Thuận Nam",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_437_ccd125dc"
+    },
+    {
+        "district_code": 599,
+        "name": "Tánh Linh",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_438_39f5ba2d"
+    },
+    {
+        "district_code": 600,
+        "name": "Đức Linh",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_439_f5cc60ee"
+    },
+    {
+        "district_code": 601,
+        "name": "Hàm Tân",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_440_77c5ea2a"
+    },
+    {
+        "district_code": 602,
+        "name": "Phú Quí",
+        "country_id": "Vietnam",
+        "state_id": "Bình Thuận",
+        "id": "res_country_state_district_441_38c45e6b"
+    },
+    {
+        "district_code": 608,
+        "name": "Kon Tum",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_442_352aa7be"
+    },
+    {
+        "district_code": 610,
+        "name": "Đắk Glei",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_443_55a40a34"
+    },
+    {
+        "district_code": 611,
+        "name": "Ngọc Hồi",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_444_a88bb9b7"
+    },
+    {
+        "district_code": 612,
+        "name": "Đắk Tô",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_445_d6c5db53"
+    },
+    {
+        "district_code": 613,
+        "name": "Kon Plông",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_446_e57a0edf"
+    },
+    {
+        "district_code": 614,
+        "name": "Kon Rẫy",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_447_8ac0a435"
+    },
+    {
+        "district_code": 615,
+        "name": "Đắk Hà",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_448_6ea09c91"
+    },
+    {
+        "district_code": 616,
+        "name": "Sa Thầy",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_449_082a1896"
+    },
+    {
+        "district_code": 617,
+        "name": "Tu Mơ Rông",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_450_2aad169f"
+    },
+    {
+        "district_code": 618,
+        "name": "Ia H' Drai",
+        "country_id": "Vietnam",
+        "state_id": "Kon Tum",
+        "id": "res_country_state_district_451_bc3c378b"
+    },
+    {
+        "district_code": 622,
+        "name": "Pleiku",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_452_807c6a02"
+    },
+    {
+        "district_code": 623,
+        "name": "Thị xã An Khê",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_453_5cd31ec4"
+    },
+    {
+        "district_code": 624,
+        "name": "Thị xã Ayun Pa",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_454_ce318539"
+    },
+    {
+        "district_code": 625,
+        "name": "KBang",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_455_b6fb0a03"
+    },
+    {
+        "district_code": 626,
+        "name": "Đăk Đoa",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_456_45598950"
+    },
+    {
+        "district_code": 627,
+        "name": "Chư Păh",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_457_0c005850"
+    },
+    {
+        "district_code": 628,
+        "name": "Ia Grai",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_458_d1788cb4"
+    },
+    {
+        "district_code": 629,
+        "name": "Mang Yang",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_459_3dce76cb"
+    },
+    {
+        "district_code": 630,
+        "name": "Kông Chro",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_460_419403ab"
+    },
+    {
+        "district_code": 631,
+        "name": "Đức Cơ",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_461_9dd649d1"
+    },
+    {
+        "district_code": 632,
+        "name": "Chư Prông",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_462_b501946a"
+    },
+    {
+        "district_code": 633,
+        "name": "Chư Sê",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_463_462dd812"
+    },
+    {
+        "district_code": 634,
+        "name": "Đăk Pơ",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_464_f06b39cc"
+    },
+    {
+        "district_code": 635,
+        "name": "Ia Pa",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_465_0bc2191e"
+    },
+    {
+        "district_code": 637,
+        "name": "Krông Pa",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_466_21d5ddc0"
+    },
+    {
+        "district_code": 638,
+        "name": "Phú Thiện",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_467_a8598cde"
+    },
+    {
+        "district_code": 639,
+        "name": "Chư Pưh",
+        "country_id": "Vietnam",
+        "state_id": "Gia Lai",
+        "id": "res_country_state_district_468_0b28fffa"
+    },
+    {
+        "district_code": 643,
+        "name": "Buôn Ma Thuột",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_469_020c4f60"
+    },
+    {
+        "district_code": 644,
+        "name": "Thị xã Buôn Hồ",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_470_4d592447"
+    },
+    {
+        "district_code": 645,
+        "name": "Ea H'leo",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_471_be4f4867"
+    },
+    {
+        "district_code": 646,
+        "name": "Ea Súp",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_472_ecee7c7d"
+    },
+    {
+        "district_code": 647,
+        "name": "Buôn Đôn",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_473_594e8069"
+    },
+    {
+        "district_code": 648,
+        "name": "Cư M'gar",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_474_236d0d28"
+    },
+    {
+        "district_code": 649,
+        "name": "Krông Búk",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_475_760c80aa"
+    },
+    {
+        "district_code": 650,
+        "name": "Krông Năng",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_476_26bc8300"
+    },
+    {
+        "district_code": 651,
+        "name": "Ea Kar",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_477_4f9adf1a"
+    },
+    {
+        "district_code": 652,
+        "name": "M'Đrắk",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_478_a141b3ae"
+    },
+    {
+        "district_code": 653,
+        "name": "Krông Bông",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_479_b46f9909"
+    },
+    {
+        "district_code": 654,
+        "name": "Krông Pắc",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_480_423cb194"
+    },
+    {
+        "district_code": 655,
+        "name": "Krông A Na",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_481_43632a34"
+    },
+    {
+        "district_code": 656,
+        "name": "Lắk",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_482_adfb87d3"
+    },
+    {
+        "district_code": 657,
+        "name": "Cư Kuin",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Lắk",
+        "id": "res_country_state_district_483_ea638d0f"
+    },
+    {
+        "district_code": 660,
+        "name": "Gia Nghĩa",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_484_0c401eb7"
+    },
+    {
+        "district_code": 661,
+        "name": "Đăk Glong",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_485_a82682cf"
+    },
+    {
+        "district_code": 662,
+        "name": "Cư Jút",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_486_4a99bd75"
+    },
+    {
+        "district_code": 663,
+        "name": "Đắk Mil",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_487_83205221"
+    },
+    {
+        "district_code": 664,
+        "name": "Krông Nô",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_488_8af86c51"
+    },
+    {
+        "district_code": 665,
+        "name": "Đắk Song",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_489_c3219988"
+    },
+    {
+        "district_code": 666,
+        "name": "Đắk R'Lấp",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_490_426d7c42"
+    },
+    {
+        "district_code": 667,
+        "name": "Tuy Đức",
+        "country_id": "Vietnam",
+        "state_id": "Đắk Nông",
+        "id": "res_country_state_district_491_84433197"
+    },
+    {
+        "district_code": 672,
+        "name": "Đà Lạt",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_492_a6f6c823"
+    },
+    {
+        "district_code": 673,
+        "name": "Bảo Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_493_aa00c769"
+    },
+    {
+        "district_code": 674,
+        "name": "Đam Rông",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_494_1076331f"
+    },
+    {
+        "district_code": 675,
+        "name": "Lạc Dương",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_495_c87fc111"
+    },
+    {
+        "district_code": 676,
+        "name": "Lâm Hà",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_496_ed0f0c35"
+    },
+    {
+        "district_code": 677,
+        "name": "Đơn Dương",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_497_4ec53c30"
+    },
+    {
+        "district_code": 678,
+        "name": "Đức Trọng",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_498_2f8156fe"
+    },
+    {
+        "district_code": 679,
+        "name": "Di Linh",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_499_7b83af92"
+    },
+    {
+        "district_code": 680,
+        "name": "Bảo Lâm",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_500_2dcaffff"
+    },
+    {
+        "district_code": 681,
+        "name": "Đạ Huoai",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_501_fb638a90"
+    },
+    {
+        "district_code": 682,
+        "name": "Đạ Tẻh",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_502_4a9e5674"
+    },
+    {
+        "district_code": 683,
+        "name": "Cát Tiên",
+        "country_id": "Vietnam",
+        "state_id": "Lâm Đồng",
+        "id": "res_country_state_district_503_a4c569dc"
+    },
+    {
+        "district_code": 688,
+        "name": "Thị xã Phước Long",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_504_6e4770a3"
+    },
+    {
+        "district_code": 689,
+        "name": "Đồng Xoài",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_505_f1cc98b7"
+    },
+    {
+        "district_code": 690,
+        "name": "Thị xã Bình Long",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_506_f0dc6c6b"
+    },
+    {
+        "district_code": 691,
+        "name": "Bù Gia Mập",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_507_aeb4823b"
+    },
+    {
+        "district_code": 692,
+        "name": "Lộc Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_508_a9c5c641"
+    },
+    {
+        "district_code": 693,
+        "name": "Bù Đốp",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_509_17414a84"
+    },
+    {
+        "district_code": 694,
+        "name": "Hớn Quản",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_510_a1994d99"
+    },
+    {
+        "district_code": 695,
+        "name": "Đồng Phú",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_511_ffb50123"
+    },
+    {
+        "district_code": 696,
+        "name": "Bù Đăng",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_512_2048e92c"
+    },
+    {
+        "district_code": 697,
+        "name": "Thị xã Chơn Thành",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_513_f01eff5d"
+    },
+    {
+        "district_code": 698,
+        "name": "Phú Riềng",
+        "country_id": "Vietnam",
+        "state_id": "Bình Phước",
+        "id": "res_country_state_district_514_d9e06de3"
+    },
+    {
+        "district_code": 703,
+        "name": "Tây Ninh",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_515_5613a4e5"
+    },
+    {
+        "district_code": 705,
+        "name": "Tân Biên",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_516_bca2a385"
+    },
+    {
+        "district_code": 706,
+        "name": "Tân Châu",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_517_63241eea"
+    },
+    {
+        "district_code": 707,
+        "name": "Dương Minh Châu",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_518_4e7261c8"
+    },
+    {
+        "district_code": 708,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_519_efdf0ad2"
+    },
+    {
+        "district_code": 709,
+        "name": "Thị xã Hòa Thành",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_520_5163cc6c"
+    },
+    {
+        "district_code": 710,
+        "name": "Gò Dầu",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_521_db049589"
+    },
+    {
+        "district_code": 711,
+        "name": "Bến Cầu",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_522_aa317312"
+    },
+    {
+        "district_code": 712,
+        "name": "Thị xã Trảng Bàng",
+        "country_id": "Vietnam",
+        "state_id": "Tây Ninh",
+        "id": "res_country_state_district_523_e439a415"
+    },
+    {
+        "district_code": 718,
+        "name": "Thủ Dầu Một",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_524_3ff669e9"
+    },
+    {
+        "district_code": 719,
+        "name": "Bàu Bàng",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_525_47fcced4"
+    },
+    {
+        "district_code": 720,
+        "name": "Dầu Tiếng",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_526_6109e91f"
+    },
+    {
+        "district_code": 721,
+        "name": "Thị xã Bến Cát",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_527_a5dc22b7"
+    },
+    {
+        "district_code": 722,
+        "name": "Phú Giáo",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_528_7c8ac90b"
+    },
+    {
+        "district_code": 723,
+        "name": "Tân Uyên",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_529_de086972"
+    },
+    {
+        "district_code": 724,
+        "name": "Dĩ An",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_530_7b6eaabe"
+    },
+    {
+        "district_code": 725,
+        "name": "Thuận An",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_531_07cad339"
+    },
+    {
+        "district_code": 726,
+        "name": "Bắc Tân Uyên",
+        "country_id": "Vietnam",
+        "state_id": "Bình Dương",
+        "id": "res_country_state_district_532_56085aae"
+    },
+    {
+        "district_code": 731,
+        "name": "Biên Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_533_1c21c33c"
+    },
+    {
+        "district_code": 732,
+        "name": "Long Khánh",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_534_506ff7ae"
+    },
+    {
+        "district_code": 734,
+        "name": "Tân Phú",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_535_8a6ae466"
+    },
+    {
+        "district_code": 735,
+        "name": "Vĩnh Cửu",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_536_e24beac3"
+    },
+    {
+        "district_code": 736,
+        "name": "Định Quán",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_537_038782c3"
+    },
+    {
+        "district_code": 737,
+        "name": "Trảng Bom",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_538_bcc1f885"
+    },
+    {
+        "district_code": 738,
+        "name": "Thống Nhất",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_539_d9b97103"
+    },
+    {
+        "district_code": 739,
+        "name": "Cẩm Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_540_68a4018a"
+    },
+    {
+        "district_code": 740,
+        "name": "Long Thành",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_541_56834e39"
+    },
+    {
+        "district_code": 741,
+        "name": "Xuân Lộc",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_542_7465cfbb"
+    },
+    {
+        "district_code": 742,
+        "name": "Nhơn Trạch",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Nai",
+        "id": "res_country_state_district_543_78a826b6"
+    },
+    {
+        "district_code": 747,
+        "name": "Vũng Tàu",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_544_8ad2f9be"
+    },
+    {
+        "district_code": 748,
+        "name": "Bà Rịa",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_545_24edc42a"
+    },
+    {
+        "district_code": 750,
+        "name": "Châu Đức",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_546_1113bd88"
+    },
+    {
+        "district_code": 751,
+        "name": "Xuyên Mộc",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_547_43c79330"
+    },
+    {
+        "district_code": 752,
+        "name": "Long Điền",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_548_0013ee3c"
+    },
+    {
+        "district_code": 753,
+        "name": "Đất Đỏ",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_549_bb2173f5"
+    },
+    {
+        "district_code": 754,
+        "name": "Thị xã Phú Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_550_19158aa3"
+    },
+    {
+        "district_code": 755,
+        "name": "Côn Đảo",
+        "country_id": "Vietnam",
+        "state_id": "Bà Rịa - Vũng Tàu",
+        "id": "res_country_state_district_551_f6de6ae4"
+    },
+    {
+        "district_code": 760,
+        "name": "Quận 1",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_552_709b7cd2"
+    },
+    {
+        "district_code": 761,
+        "name": "Quận 12",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_553_3b8c2b43"
+    },
+    {
+        "district_code": 764,
+        "name": "Quận Gò Vấp",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_554_601eba74"
+    },
+    {
+        "district_code": 765,
+        "name": "Quận Bình Thạnh",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_555_478cd37f"
+    },
+    {
+        "district_code": 766,
+        "name": "Quận Tân Bình",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_556_f3462e6f"
+    },
+    {
+        "district_code": 767,
+        "name": "Quận Tân Phú",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_557_64506af9"
+    },
+    {
+        "district_code": 768,
+        "name": "Quận Phú Nhuận",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_558_9037d9ef"
+    },
+    {
+        "district_code": 769,
+        "name": "Thủ Đức",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_559_aac30a58"
+    },
+    {
+        "district_code": 770,
+        "name": "Quận 3",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_560_6a864bac"
+    },
+    {
+        "district_code": 771,
+        "name": "Quận 10",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_561_70427bf0"
+    },
+    {
+        "district_code": 772,
+        "name": "Quận 11",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_562_9a28798f"
+    },
+    {
+        "district_code": 773,
+        "name": "Quận 4",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_563_1603d96e"
+    },
+    {
+        "district_code": 774,
+        "name": "Quận 5",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_564_f79d080b"
+    },
+    {
+        "district_code": 775,
+        "name": "Quận 6",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_565_6e7714f6"
+    },
+    {
+        "district_code": 776,
+        "name": "Quận 8",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_566_192eb61f"
+    },
+    {
+        "district_code": 777,
+        "name": "Quận Bình Tân",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_567_a303b0f9"
+    },
+    {
+        "district_code": 778,
+        "name": "Quận 7",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_568_1220033d"
+    },
+    {
+        "district_code": 783,
+        "name": "Củ Chi",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_569_1d976967"
+    },
+    {
+        "district_code": 784,
+        "name": "Hóc Môn",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_570_e9012b5d"
+    },
+    {
+        "district_code": 785,
+        "name": "Bình Chánh",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_571_9c9d019b"
+    },
+    {
+        "district_code": 786,
+        "name": "Nhà Bè",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_572_0b35ee19"
+    },
+    {
+        "district_code": 787,
+        "name": "Cần Giờ",
+        "country_id": "Vietnam",
+        "state_id": "TP Hồ Chí Minh",
+        "id": "res_country_state_district_573_04ec663b"
+    },
+    {
+        "district_code": 794,
+        "name": "Tân An",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_574_efb35b7e"
+    },
+    {
+        "district_code": 795,
+        "name": "Thị xã Kiến Tường",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_575_1bd5462a"
+    },
+    {
+        "district_code": 796,
+        "name": "Tân Hưng",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_576_4a568ddb"
+    },
+    {
+        "district_code": 797,
+        "name": "Vĩnh Hưng",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_577_9363bdcc"
+    },
+    {
+        "district_code": 798,
+        "name": "Mộc Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_578_8aa8c199"
+    },
+    {
+        "district_code": 799,
+        "name": "Tân Thạnh",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_579_24ba4d7d"
+    },
+    {
+        "district_code": 800,
+        "name": "Thạnh Hóa",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_580_7824ddc1"
+    },
+    {
+        "district_code": 801,
+        "name": "Đức Huệ",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_581_b8fc86e5"
+    },
+    {
+        "district_code": 802,
+        "name": "Đức Hòa",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_582_ae4a3757"
+    },
+    {
+        "district_code": 803,
+        "name": "Bến Lức",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_583_0b15dc10"
+    },
+    {
+        "district_code": 804,
+        "name": "Thủ Thừa",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_584_1d104d3a"
+    },
+    {
+        "district_code": 805,
+        "name": "Tân Trụ",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_585_c774cb02"
+    },
+    {
+        "district_code": 806,
+        "name": "Cần Đước",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_586_b7ce6c60"
+    },
+    {
+        "district_code": 807,
+        "name": "Cần Giuộc",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_587_dd37b8a8"
+    },
+    {
+        "district_code": 808,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Long An",
+        "id": "res_country_state_district_588_571f4e98"
+    },
+    {
+        "district_code": 815,
+        "name": "Mỹ Tho",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_589_0f3a7d34"
+    },
+    {
+        "district_code": 816,
+        "name": "Thị xã Gò Công",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_590_4dab43bc"
+    },
+    {
+        "district_code": 817,
+        "name": "Thị xã Cai Lậy",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_591_b810ae79"
+    },
+    {
+        "district_code": 818,
+        "name": "Tân Phước",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_592_4061b592"
+    },
+    {
+        "district_code": 819,
+        "name": "Cái Bè",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_593_c34c6d25"
+    },
+    {
+        "district_code": 820,
+        "name": "Cai Lậy",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_594_a974e198"
+    },
+    {
+        "district_code": 821,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_595_4bce7316"
+    },
+    {
+        "district_code": 822,
+        "name": "Chợ Gạo",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_596_b54a7620"
+    },
+    {
+        "district_code": 823,
+        "name": "Gò Công Tây",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_597_3c2521e9"
+    },
+    {
+        "district_code": 824,
+        "name": "Gò Công Đông",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_598_93b78887"
+    },
+    {
+        "district_code": 825,
+        "name": "Tân Phú Đông",
+        "country_id": "Vietnam",
+        "state_id": "Tiền Giang",
+        "id": "res_country_state_district_599_ae720855"
+    },
+    {
+        "district_code": 829,
+        "name": "Bến Tre",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_600_a3761a47"
+    },
+    {
+        "district_code": 831,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_601_416e82ff"
+    },
+    {
+        "district_code": 832,
+        "name": "Chợ Lách",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_602_f22fc51f"
+    },
+    {
+        "district_code": 833,
+        "name": "Mỏ Cày Nam",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_603_b0389492"
+    },
+    {
+        "district_code": 834,
+        "name": "Giồng Trôm",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_604_1cb26741"
+    },
+    {
+        "district_code": 835,
+        "name": "Bình Đại",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_605_ad8b83ca"
+    },
+    {
+        "district_code": 836,
+        "name": "Ba Tri",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_606_8ab88763"
+    },
+    {
+        "district_code": 837,
+        "name": "Thạnh Phú",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_607_e3e2115d"
+    },
+    {
+        "district_code": 838,
+        "name": "Mỏ Cày Bắc",
+        "country_id": "Vietnam",
+        "state_id": "Bến Tre",
+        "id": "res_country_state_district_608_29bd7959"
+    },
+    {
+        "district_code": 842,
+        "name": "Trà Vinh",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_609_0a6e0e65"
+    },
+    {
+        "district_code": 844,
+        "name": "Càng Long",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_610_a0237dbd"
+    },
+    {
+        "district_code": 845,
+        "name": "Cầu Kè",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_611_994833eb"
+    },
+    {
+        "district_code": 846,
+        "name": "Tiểu Cần",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_612_caba0426"
+    },
+    {
+        "district_code": 847,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_613_81ad1e7d"
+    },
+    {
+        "district_code": 848,
+        "name": "Cầu Ngang",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_614_027a05ae"
+    },
+    {
+        "district_code": 849,
+        "name": "Trà Cú",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_615_5008f8aa"
+    },
+    {
+        "district_code": 850,
+        "name": "Duyên Hải",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_616_e6e0930a"
+    },
+    {
+        "district_code": 851,
+        "name": "Thị xã Duyên Hải",
+        "country_id": "Vietnam",
+        "state_id": "Trà Vinh",
+        "id": "res_country_state_district_617_6aac30fe"
+    },
+    {
+        "district_code": 855,
+        "name": "Vĩnh Long",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_618_fc78123b"
+    },
+    {
+        "district_code": 857,
+        "name": "Long Hồ",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_619_89eabbe5"
+    },
+    {
+        "district_code": 858,
+        "name": "Mang Thít",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_620_6dcd18e0"
+    },
+    {
+        "district_code": 859,
+        "name": "Vũng Liêm",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_621_729c318c"
+    },
+    {
+        "district_code": 860,
+        "name": "Tam Bình",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_622_4bd870e8"
+    },
+    {
+        "district_code": 861,
+        "name": "Thị xã Bình Minh",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_623_d797ad84"
+    },
+    {
+        "district_code": 862,
+        "name": "Trà Ôn",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_624_90196836"
+    },
+    {
+        "district_code": 863,
+        "name": "Bình Tân",
+        "country_id": "Vietnam",
+        "state_id": "Vĩnh Long",
+        "id": "res_country_state_district_625_8d1b6ca8"
+    },
+    {
+        "district_code": 866,
+        "name": "Cao Lãnh",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_626_1c3177c0"
+    },
+    {
+        "district_code": 867,
+        "name": "Sa Đéc",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_627_812b86be"
+    },
+    {
+        "district_code": 868,
+        "name": "Hồng Ngự",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_628_a1ee40db"
+    },
+    {
+        "district_code": 869,
+        "name": "Tân Hồng",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_629_d237ac9f"
+    },
+    {
+        "district_code": 870,
+        "name": "Hồng Ngự",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_630_81ce944a"
+    },
+    {
+        "district_code": 871,
+        "name": "Tam Nông",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_631_467a5d55"
+    },
+    {
+        "district_code": 872,
+        "name": "Tháp Mười",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_632_81ad438c"
+    },
+    {
+        "district_code": 873,
+        "name": "Cao Lãnh",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_633_f2b9e8ea"
+    },
+    {
+        "district_code": 874,
+        "name": "Thanh Bình",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_634_170392d9"
+    },
+    {
+        "district_code": 875,
+        "name": "Lấp Vò",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_635_147fb9e2"
+    },
+    {
+        "district_code": 876,
+        "name": "Lai Vung",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_636_cccc9a64"
+    },
+    {
+        "district_code": 877,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Đồng Tháp",
+        "id": "res_country_state_district_637_e241c4d6"
+    },
+    {
+        "district_code": 883,
+        "name": "Long Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_638_964549a7"
+    },
+    {
+        "district_code": 884,
+        "name": "Châu Đốc",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_639_d3d57321"
+    },
+    {
+        "district_code": 886,
+        "name": "An Phú",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_640_d4a91755"
+    },
+    {
+        "district_code": 887,
+        "name": "Thị xã Tân Châu",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_641_e010fcb6"
+    },
+    {
+        "district_code": 888,
+        "name": "Phú Tân",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_642_a5c9239e"
+    },
+    {
+        "district_code": 889,
+        "name": "Châu Phú",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_643_9c173d9c"
+    },
+    {
+        "district_code": 890,
+        "name": "Thị xã Tịnh Biên",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_644_beaf0b43"
+    },
+    {
+        "district_code": 891,
+        "name": "Tri Tôn",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_645_5960a93a"
+    },
+    {
+        "district_code": 892,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_646_eb1e19be"
+    },
+    {
+        "district_code": 893,
+        "name": "Chợ Mới",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_647_356553b6"
+    },
+    {
+        "district_code": 894,
+        "name": "Thoại Sơn",
+        "country_id": "Vietnam",
+        "state_id": "An Giang",
+        "id": "res_country_state_district_648_724fe8b9"
+    },
+    {
+        "district_code": 899,
+        "name": "Rạch Giá",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_649_10105d3d"
+    },
+    {
+        "district_code": 900,
+        "name": "Hà Tiên",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_650_da5b6d95"
+    },
+    {
+        "district_code": 902,
+        "name": "Kiên Lương",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_651_9c5f8458"
+    },
+    {
+        "district_code": 903,
+        "name": "Hòn Đất",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_652_59efe50f"
+    },
+    {
+        "district_code": 904,
+        "name": "Tân Hiệp",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_653_fe1f8aef"
+    },
+    {
+        "district_code": 905,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_654_05e6606c"
+    },
+    {
+        "district_code": 906,
+        "name": "Giồng Riềng",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_655_2e293b77"
+    },
+    {
+        "district_code": 907,
+        "name": "Gò Quao",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_656_22e8cd82"
+    },
+    {
+        "district_code": 908,
+        "name": "An Biên",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_657_292cbe50"
+    },
+    {
+        "district_code": 909,
+        "name": "An Minh",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_658_4ac92a69"
+    },
+    {
+        "district_code": 910,
+        "name": "Vĩnh Thuận",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_659_cf923ee5"
+    },
+    {
+        "district_code": 911,
+        "name": "Phú Quốc",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_660_43ab7466"
+    },
+    {
+        "district_code": 912,
+        "name": "Kiên Hải",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_661_b63bac7c"
+    },
+    {
+        "district_code": 913,
+        "name": "U Minh Thượng",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_662_d5d672da"
+    },
+    {
+        "district_code": 914,
+        "name": "Giang Thành",
+        "country_id": "Vietnam",
+        "state_id": "Kiên Giang",
+        "id": "res_country_state_district_663_83c9b68b"
+    },
+    {
+        "district_code": 916,
+        "name": "Quận Ninh Kiều",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_664_50d4158e"
+    },
+    {
+        "district_code": 917,
+        "name": "Quận Ô Môn",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_665_02533418"
+    },
+    {
+        "district_code": 918,
+        "name": "Quận Bình Thuỷ",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_666_024de17f"
+    },
+    {
+        "district_code": 919,
+        "name": "Quận Cái Răng",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_667_b3f3a925"
+    },
+    {
+        "district_code": 923,
+        "name": "Quận Thốt Nốt",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_668_82d54560"
+    },
+    {
+        "district_code": 924,
+        "name": "Vĩnh Thạnh",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_669_84884cd8"
+    },
+    {
+        "district_code": 925,
+        "name": "Cờ Đỏ",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_670_c8eea3ed"
+    },
+    {
+        "district_code": 926,
+        "name": "Phong Điền",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_671_51cc6c94"
+    },
+    {
+        "district_code": 927,
+        "name": "Thới Lai",
+        "country_id": "Vietnam",
+        "state_id": "TP Cần Thơ",
+        "id": "res_country_state_district_672_228f192e"
+    },
+    {
+        "district_code": 930,
+        "name": "Vị Thanh",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_673_bdeafedc"
+    },
+    {
+        "district_code": 931,
+        "name": "Ngã Bảy",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_674_0e4147b1"
+    },
+    {
+        "district_code": 932,
+        "name": "Châu Thành A",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_675_a3d3a8c7"
+    },
+    {
+        "district_code": 933,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_676_d012ea14"
+    },
+    {
+        "district_code": 934,
+        "name": "Phụng Hiệp",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_677_d61d3ed3"
+    },
+    {
+        "district_code": 935,
+        "name": "Vị Thuỷ",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_678_6144c734"
+    },
+    {
+        "district_code": 936,
+        "name": "Long Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_679_459b0ec8"
+    },
+    {
+        "district_code": 937,
+        "name": "Thị xã Long Mỹ",
+        "country_id": "Vietnam",
+        "state_id": "Hậu Giang",
+        "id": "res_country_state_district_680_6c59c631"
+    },
+    {
+        "district_code": 941,
+        "name": "Sóc Trăng",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_681_0f1b1e86"
+    },
+    {
+        "district_code": 942,
+        "name": "Châu Thành",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_682_56bb5a66"
+    },
+    {
+        "district_code": 943,
+        "name": "Kế Sách",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_683_b8cf5344"
+    },
+    {
+        "district_code": 944,
+        "name": "Mỹ Tú",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_684_5b1192bc"
+    },
+    {
+        "district_code": 945,
+        "name": "Cù Lao Dung",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_685_59dd9c1d"
+    },
+    {
+        "district_code": 946,
+        "name": "Long Phú",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_686_2961c885"
+    },
+    {
+        "district_code": 947,
+        "name": "Mỹ Xuyên",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_687_fa8b5d12"
+    },
+    {
+        "district_code": 948,
+        "name": "Thị xã Ngã Năm",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_688_0c668a28"
+    },
+    {
+        "district_code": 949,
+        "name": "Thạnh Trị",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_689_9d247490"
+    },
+    {
+        "district_code": 950,
+        "name": "Thị xã Vĩnh Châu",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_690_df10f4b8"
+    },
+    {
+        "district_code": 951,
+        "name": "Trần Đề",
+        "country_id": "Vietnam",
+        "state_id": "Sóc Trăng",
+        "id": "res_country_state_district_691_e9bd8346"
+    },
+    {
+        "district_code": 954,
+        "name": "Bạc Liêu",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_692_d9d794f2"
+    },
+    {
+        "district_code": 956,
+        "name": "Hồng Dân",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_693_b9a44bc6"
+    },
+    {
+        "district_code": 957,
+        "name": "Phước Long",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_694_5ae68f5b"
+    },
+    {
+        "district_code": 958,
+        "name": "Vĩnh Lợi",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_695_2dbff3d2"
+    },
+    {
+        "district_code": 959,
+        "name": "Thị xã Giá Rai",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_696_80c7bb77"
+    },
+    {
+        "district_code": 960,
+        "name": "Đông Hải",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_697_f9962fac"
+    },
+    {
+        "district_code": 961,
+        "name": "Hoà Bình",
+        "country_id": "Vietnam",
+        "state_id": "Bạc Liêu",
+        "id": "res_country_state_district_698_b882b1e5"
+    },
+    {
+        "district_code": 964,
+        "name": "Cà Mau",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_699_1f266451"
+    },
+    {
+        "district_code": 966,
+        "name": "U Minh",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_700_3f8748e0"
+    },
+    {
+        "district_code": 967,
+        "name": "Thới Bình",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_701_fc569612"
+    },
+    {
+        "district_code": 968,
+        "name": "Trần Văn Thời",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_702_43fa450c"
+    },
+    {
+        "district_code": 969,
+        "name": "Cái Nước",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_703_4625b159"
+    },
+    {
+        "district_code": 970,
+        "name": "Đầm Dơi",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_704_5a054a2a"
+    },
+    {
+        "district_code": 971,
+        "name": "Năm Căn",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_705_a87357df"
+    },
+    {
+        "district_code": 972,
+        "name": "Phú Tân",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_706_a5a8d62c"
+    },
+    {
+        "district_code": 973,
+        "name": "Ngọc Hiển",
+        "country_id": "Vietnam",
+        "state_id": "Cà Mau",
+        "id": "res_country_state_district_707_eb1bd1b2"
+    }
+]

@@ -1,0 +1,15 @@
+
+@import "../css/typography";
+@import "../css/style";
+@import "../css/responsive";
+@import "../css/fontawesome.css";
+@import "../css/slick";
+@import "../css/slick-theme";
+
+.iq-global-search>ul>li a, .slick-arrow, .breadcrumb-item>a{
+  color: var(--iq-primary);
+  &:hover{
+    color: var(--iq-primary);
+  }
+}
+

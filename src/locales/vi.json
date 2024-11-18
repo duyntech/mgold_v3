@@ -62,7 +62,8 @@
         "F-CASHSUMMARY": "Sổ tổng hợp",
         "BANK": "SỔ PHỤ NGÂN HÀNG",
         "F-BANKDETAIL": "Sổ chi tiết",
-        "F-BANKSUMMARY": "Sổ tổng hợp"
+        "F-BANKSUMMARY": "Sổ tổng hợp",
+        "F-TRANSACTION": "Danh sách giao dịch"
     },
     "status": {
         "loading": "Đang tải...",

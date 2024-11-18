@@ -1,57 +1,57 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { WarehouseModel } from "../../model";
+import { AccountingTransactionModel } from "../../model";
 import { ActionSliceState } from "../state";
-import { WarehouseService } from "../../services/Warehouse.service";
+import { AccountingTransactionService } from "../../services/AccountingTransaction.service";
 import { commonCreateAsyncThunk } from "../thunk";
 import { errorMessage } from "../../utils/util";
 
-interface WarehouseState extends ActionSliceState {
-  list: WarehouseModel[];
-  filteredList: WarehouseModel[];
-  item: WarehouseModel;
+interface AccountingTransactionState extends ActionSliceState {
+  list: AccountingTransactionModel[];
+  filteredList: AccountingTransactionModel[];
+  item: AccountingTransactionModel;
 }
 
-const initialState: WarehouseState = {
+const initialState: AccountingTransactionState = {
   list: [],
   filteredList: [],
-  item: WarehouseModel.initial(),
+  item: AccountingTransactionModel.initial(),
   status: "idle",
   statusAction: "idle",
   action: "INS",
 };
 export const fetchAll: any = commonCreateAsyncThunk({
-  type: "warehouse/fetchAll",
-  action: WarehouseService.fetchAll,
+  type: "transaction/fetchAll",
+  action: AccountingTransactionService.fetchAll,
 });
 export const addItem: any = commonCreateAsyncThunk({
-  type: "warehouse/addItem",
-  action: WarehouseService.addItem,
+  type: "transaction/addItem",
+  action: AccountingTransactionService.addItem,
 });
 export const editItem: any = commonCreateAsyncThunk({
-  type: "warehouse/editItem",
-  action: WarehouseService.editItem,
+  type: "transaction/editItem",
+  action: AccountingTransactionService.editItem,
 });
 export const deleteItem: any = commonCreateAsyncThunk({
-  type: "warehouse/deleteItem",
-  action: WarehouseService.deleteItem,
+  type: "transaction/deleteItem",
+  action: AccountingTransactionService.deleteItem,
 });
 export const restoreItem: any = commonCreateAsyncThunk({
-  type: "warehouse/restoreItem",
-  action: WarehouseService.restoreItem,
+  type: "transaction/restoreItem",
+  action: AccountingTransactionService.restoreItem,
 });
-export const warehouseSlice = createSlice({
-  name: "warehouse",
+export const accountingTransactionSlice = createSlice({
+  name: "transaction",
   initialState,
   reducers: {
     selectItem: (state, action) => {
-      state.filteredList = WarehouseService.activeIfSelectAndDeactiveOthers(
-        action.payload.id,
-        state.filteredList
-      );
+      state.filteredList =
+        AccountingTransactionService.activeIfSelectAndDeactiveOthers(
+          action.payload.id,
+          state.filteredList
+        );
       state.item = action.payload;
     },
     setFilteredList: (state, action) => {
-      console.log(action);
       state.filteredList = action.payload;
     },
     resetActionState: (state, _action) => {
@@ -65,8 +65,6 @@ export const warehouseSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(restoreItem.fulfilled, (state, _action) => {
-        // const item=WarehouseService.itemFromJson(action.payload.data.warehouse)
-        // state.item=item
         state.action = "VIE";
         state.statusAction = "completed";
       })
@@ -79,8 +77,6 @@ export const warehouseSlice = createSlice({
         state.error = errorMessage(error, false);
       })
       .addCase(deleteItem.fulfilled, (state, _action) => {
-        // const item=WarehouseService.itemFromJson(action.payload.data.warehouse)
-        // state.item=item
         state.action = "VIE";
         state.statusAction = "completed";
       })
@@ -93,8 +89,6 @@ export const warehouseSlice = createSlice({
         state.error = errorMessage(error, false);
       })
       .addCase(editItem.fulfilled, (state, _action) => {
-        // const item=WarehouseService.itemFromJson(action.payload.data.warehouse)
-        // state.item=item
         state.action = "VIE";
         state.statusAction = "completed";
       })
@@ -107,8 +101,6 @@ export const warehouseSlice = createSlice({
         state.error = errorMessage(error, false);
       })
       .addCase(addItem.fulfilled, (state, _action) => {
-        // const item=WarehouseService.itemFromJson(action.payload.data.warehouse)
-        // state.item=item
         state.action = "VIE";
         state.statusAction = "completed";
       })
@@ -121,8 +113,8 @@ export const warehouseSlice = createSlice({
         state.error = errorMessage(error, false);
       })
       .addCase(fetchAll.fulfilled, (state, action) => {
-        const list = WarehouseService.listFromJson(
-          action.payload.data !== "" ? action.payload.data.warehouses : []
+        const list = AccountingTransactionService.listFromJson(
+          action.payload.data !== "" ? action.payload.data.data : []
         );
         state.list = list;
         state.filteredList = list;
@@ -140,6 +132,6 @@ export const warehouseSlice = createSlice({
 });
 
 // eslint-disable-next-line no-empty-pattern
-export const { selectItem, resetActionState, changeAction, setFilteredList } =
-  warehouseSlice.actions;
-export default warehouseSlice.reducer;
+export const { resetActionState, changeAction, setFilteredList, selectItem } =
+  accountingTransactionSlice.actions;
+export default accountingTransactionSlice.reducer;

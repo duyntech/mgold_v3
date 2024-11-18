@@ -134,7 +134,7 @@ export default function AllSupplier() {
                 } else if (partner === "SUPPLIER") {
                     return item.supplier === true;
                 }
-                return true;
+                return false;
             });
         }
         dispatch(setFilteredList(filtered))

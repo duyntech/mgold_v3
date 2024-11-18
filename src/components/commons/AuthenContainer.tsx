@@ -38,7 +38,7 @@ export default function AuthenContainer({ children }: Props) {
           </div>
           <div className='col-md-5 position-relative'>{children}</div>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   )
 }

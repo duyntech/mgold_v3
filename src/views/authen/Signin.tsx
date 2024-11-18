@@ -9,16 +9,16 @@ export default function SignIn() {
     const signinState = useAppSelector((state) => state.signin)
     const authService = new AuthService()
     const user = authService.getCurrentUser()
-    return(
-    user===null?
-        <AuthenContainer>
-            {signinState.twofa_qr?
-                <TwoFaQr/>
-            :signinState.twofa_otp?
-                <TwoFaVerify/>
-                :<SignInPage/>
-            }
-        </AuthenContainer>
-        :<Navigate to='/' />
+    return (
+        user === null ?
+            <AuthenContainer>
+                {signinState.twofa_qr ?
+                    <TwoFaQr />
+                    : signinState.twofa_otp ?
+                        <TwoFaVerify />
+                        : <SignInPage />
+                }
+            </AuthenContainer>
+            : <Navigate to='/' />
     )
 }

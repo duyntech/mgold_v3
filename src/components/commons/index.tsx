@@ -10,8 +10,9 @@ import * as ContentLoading from './ContentLoading';
 import DashedBorderBox from './DashedBorderBox';
 import Counter from './Counter';
 import StatusDropdown from './StatusDropdown';
+import PartnerDropdown from './PartnerDropdown';
 import Status from './Status';
-export { 
+export {
     PageLoading,
     SidebarToggler,
     NavbarToggler,
@@ -19,11 +20,12 @@ export {
     EmptyHeight,
     DashedButton,
     EmptyBox,
-    GoToTop, 
+    GoToTop,
     ContentLoading,
     DashedBorderBox,
     Counter,
     StatusDropdown,
+    PartnerDropdown,
     Status
 };
 

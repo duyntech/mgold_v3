@@ -145,29 +145,29 @@
     "card2": "Credited From Accounts",
     "card3": "AVG Employee Costs",
     "card4": "Average payment delay",
-    "invoice" : "invoice",
+    "invoice": "invoice",
     "invoiceState": "Invoice Stats",
     "openInvoice": "Open Invoices",
     "monthlyInvoice": "Monthly Invoices",
     "exchangeRates": "Exchange Rates",
-    "paymentHistory" : "Payment History",
-    "lastCosts" : "Last Costs",
-    "efficiency" : "Efficiency"
+    "paymentHistory": "Payment History",
+    "lastCosts": "Last Costs",
+    "efficiency": "Efficiency"
   },
   "rightSide": {
-    "customerDistribution" : "Customer Distribution",
-    "projectStatistic" : "Project Statistic",
-    "countries" : "Countries"
+    "customerDistribution": "Customer Distribution",
+    "projectStatistic": "Project Statistic",
+    "countries": "Countries"
   },
   "dropdown": {
-    "view" : "View",
+    "view": "View",
     "delete": "Delete",
-    "edit" : "Edit",
-    "print" : "Print",
+    "edit": "Edit",
+    "print": "Print",
     "download": "Download",
-    "unfollow" : "Unfollow",
-    "follow" : "Follow",
-    "block" : "Block"
+    "unfollow": "Unfollow",
+    "follow": "Follow",
+    "block": "Block"
   },
   "customizer": {
     "colorCustomizer": "Color Customizer",
@@ -175,7 +175,7 @@
     "colorMode": "Color Mode",
     "sidebar": "Sidebar",
     "sidebarMini": "Sidebar Mini",
-    "routeAnimation" : "Route Animation",
+    "routeAnimation": "Route Animation",
     "rtlMode": "RTL Mode",
     "rtl": "RTL",
     "reset": "Reset"
@@ -192,7 +192,7 @@
     "branchs": "Branchs",
     "branch": "Branch"
   },
-   "status": {
+  "status": {
     "loading": "Loading..."
   },
   "action": {

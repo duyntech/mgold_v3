@@ -11,9 +11,9 @@ export default function HeaderProfile() {
   const toggleStates = useAppSelector((state) => state.header)
   const dispatch = useAppDispatch()
   const myRef = useRef<HTMLLIElement>(null);
-  const handleClickOutside = (e:any) => {
+  const handleClickOutside = (e: any) => {
     if (!myRef.current!.contains(e.target)) {
-      if(toggleStates.showProfileDrop){
+      if (toggleStates.showProfileDrop) {
         dispatch(toggleProfile())
       }
     }
@@ -24,8 +24,8 @@ export default function HeaderProfile() {
   });
   // const profileActions = headerProfileActions
   // const userProfileImage=UserRepo.getUserProfileImage();
-  const userFullname=UserRepo.getUserFullname();
-  const userProfileImage=Assets.images.user01;
+  const userFullname = UserRepo.getUserFullname();
+  const userProfileImage = Assets.images.user01;
   //const userFullname='Fami Soft';
   return (
     <ul className='navbar-list align-items-right'>
@@ -34,7 +34,7 @@ export default function HeaderProfile() {
           to='#'
           className='search-toggle iq-waves-effect d-flex align-items-center'
           onClick={() => dispatch(toggleProfile())}
-          
+
         >
           <img src={userProfileImage} className='img-fluid rounded-circle mr-3' alt='user' />
           <div className='caption ms-1'>
@@ -44,7 +44,7 @@ export default function HeaderProfile() {
         </Link>
         <div className='iq-sub-dropdown iq-user-dropdown'>
           <HeaderDropdown
-            title={'Xin chào '+userFullname}
+            title={'Xin chào ' + userFullname}
             bagde={0}
             status={'Trực tuyến'}
             items={[]}

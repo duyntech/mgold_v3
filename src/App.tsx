@@ -34,6 +34,7 @@ const PawnWarehouses = React.lazy(() => import('./views/pawn/PawnWarehouses'));
 const FingerPrintMajor = React.lazy(() => import('./views/fingerprint/FingerPrintMajor'));
 const AllDescription = React.lazy(() => import('./views/description/AllDescription'));
 const AllCounter = React.lazy(() => import('./views/counter/AllCounter'));
+const AllFeature = React.lazy(() => import('./views/feature/AllFeature'));
 const pageList = [
     {
         path: "/goldprice",
@@ -101,11 +102,11 @@ const pageList = [
 
     {
         path: "/goldtype",
-        element: <Layout children={<GoldType/>} target={'/goldtype'}></Layout>
+        element: <Layout children={<GoldType />} target={'/goldtype'}></Layout>
     },
     {
         path: "/goldtype-item",
-        element: <Layout children={<GoldTypeItem/>} target={'/goldtype'}></Layout>
+        element: <Layout children={<GoldTypeItem />} target={'/goldtype'}></Layout>
     },
     {
         path: "/tpawn",
@@ -146,6 +147,10 @@ const pageList = [
     {
         path: "/counter",
         element: <Layout children={<AllCounter />} target={'/counter'}></Layout>
+    },
+    {
+        path: "/feature",
+        element: <Layout children={<AllFeature />} target={'/feature'}></Layout>
     },
     {
         path: "/*",

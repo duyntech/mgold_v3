@@ -1,6 +1,9 @@
 import { MenuItem } from "primereact/menuitem"
 import { DropdownActionModel, DropdownItemModel } from "../model/Dropdown.model"
 import { FormikProps } from "formik"
+import { UniqueIdentifier } from "@dnd-kit/core"
+import { FeatureModel } from "../model"
+
 export interface ComponentFormikProps {
     formik: FormikProps<Record<string, any>>
 }
@@ -233,4 +236,20 @@ export type dropdownItem = {
     label: string,
     value: string,
     parent: boolean
+}
+export type draggableProps = {
+    id: UniqueIdentifier,
+    children: React.ReactNode,
+    onClick: VoidFunction
+}
+export type droppableProps = {
+    id: UniqueIdentifier;
+    title: string,
+    children: React.ReactNode;
+}
+export type featureProps = {
+    retail: FeatureModel[];
+    wholesale: FeatureModel[];
+    pawn: FeatureModel[];
+    general: FeatureModel[];
 }

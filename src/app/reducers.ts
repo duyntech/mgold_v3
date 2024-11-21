@@ -41,6 +41,8 @@ import counterSlice from "../slices/counter/counter.slice";
 import descriptionSlice from "../slices/description/description.slice";
 import fingerSlice from "../slices/fingerprint/fingerprint.slice";
 import accountingTransactionSlice from "../slices/accountingtransaction/AccountingTransaction.slice";
+import featureSlice from "../slices/feature/feature.slice";
+
 const rootReducer = combineReducers({
   app: appSlice,
   signin: signinSlice,
@@ -84,6 +86,7 @@ const rootReducer = combineReducers({
   description: descriptionSlice,
   finger: fingerSlice,
   accountingTransaction: accountingTransactionSlice,
+  feature: featureSlice,
 });
 
 export default rootReducer;

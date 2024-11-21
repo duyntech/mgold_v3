@@ -20,3 +20,4 @@ export * from "./Installment.model";
 export * from "./Search.model";
 export * from "./View.model";
 export * from "./AccountingTransaction.model";
+export * from "./Feature.model";

@@ -109,6 +109,7 @@ export type ActionButtonProps = {
 }
 export type status = "ALL" | "ACTIVE" | "DEACTIVE" | "BOOKED" | "WAITING" | "SOLD" | "EXPORTED"
 export type partner = "ALL" | "CUSTOMER" | "SUPPLIER"
+export type moduleTransaction = "ALL" | "RETAIL" | "PAWN"
 export type financeStatus = "ALL" | "ACTIVE" | "DEACTIVE" | "WAITING" | "DENIED"
 export type transactions = "RETAIL" | "PAWN" | "WITHDRAW" | "RECEIPT" | "PAYSLIP" | "WEBORDER" | "CREDIT" | "DEBIT"
 export type StatusDropdownProps = {
@@ -117,6 +118,10 @@ export type StatusDropdownProps = {
 }
 export type PartnerDropdownProps = {
     value: partner,
+    onChange: any
+}
+export type ModuleTransactionDropdownProps = {
+    value: moduleTransaction,
     onChange: any
 }
 export type ActionItemCardProps = {

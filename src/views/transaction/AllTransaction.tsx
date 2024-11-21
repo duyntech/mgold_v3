@@ -1,38 +1,39 @@
 import { useEffect, useRef, useState } from "react";
-import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { ContentLoading, DynamicDialog, EmptyBox, EmptyHeight, StatusDropdown } from "../../components/commons";
 import Card from "../../components/commons/Card";
 import ItemCard from "../../components/commons/ItemCard";
-import { addItem, changeAction, deleteItem, editItem, fetchAll, resetActionState, restoreItem, selectItem, setFilteredList } from "../../slices/warehouse/warehouse.slice";
-import { WarehouseModel } from "../../model";
-import { InputText } from "primereact/inputtext";
+import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { completed, failed, processing, warningWithConfirm } from "../../utils/alert";
-import { InputTextarea } from 'primereact/inputtextarea';
-import { FormikErrors, useFormik } from "formik";
-import { classNames } from "primereact/utils";
-import { actions, status } from "../../types";
-import FormAction from "../../components/commons/FormAction";
-import { isFormFieldInvalid, getFormErrorMessageString } from "../../utils/validate";
-import ActionButton from "../../components/action/ActionButton";
 import Assets from "../../assets";
-import { t } from "i18next";
-import { removeVietnameseTones } from "../../utils/util";
 import { OverlayPanel } from "primereact/overlaypanel";
+import { FormikErrors, useFormik } from "formik";
+import { AccountingTransactionModel } from "../../model";
+import { actions, moduleTransaction, status } from "../../types";
+import ActionButton from "../../components/action/ActionButton";
+import FormAction from "../../components/commons/FormAction";
+import { InputText } from "primereact/inputtext";
+import { InputTextarea } from 'primereact/inputtextarea';
+import { isFormFieldInvalid, getFormErrorMessageString } from "../../utils/validate";
+import { classNames } from "primereact/utils";
+import { removeVietnameseTones } from "../../utils/util";
+import { t } from "i18next";
 import { DropdownChangeEvent } from "primereact/dropdown";
-
-export default function AllWarehouse() {
-    const dispatch = useAppDispatch()
-    const warehouseState = useAppSelector((state) => state.warehouse);
+import { addItem, changeAction, deleteItem, editItem, fetchAll, resetActionState, selectItem, restoreItem, setFilteredList } from "../../slices/accountingtransaction/AccountingTransaction.slice";
+import ModuleTransactionDropdown from "../../components/commons/ModuleTransactionDropdown";
+export default function AllTransaction() {
+    const dispatch = useAppDispatch();
+    const transactionState = useAppSelector((state) => state.accountingTransaction);
     const search = useAppSelector((state) => state.header.search);
-    const filteredList = warehouseState.filteredList
     const [isShowDialog, setIsShowDialog] = useState(false);
-    const disableInput = !["INS", "UPD"].includes(warehouseState.action);
+    const disableInput = !["INS", "UPD"].includes(transactionState.action);
     const [status, setStatus] = useState<status>("ACTIVE");
+    const [moduleTransaction, setModuleTransaction] = useState<moduleTransaction>("ALL");
+    const filteredList = transactionState.filteredList;
     const op = useRef<any>(null);
-    const formik = useFormik<WarehouseModel>({
-        initialValues: WarehouseModel.initial(),
+    const formik = useFormik<AccountingTransactionModel>({
+        initialValues: AccountingTransactionModel.initial(),
         validate: (data) => {
-            const errors: FormikErrors<WarehouseModel> = {};
+            const errors: FormikErrors<AccountingTransactionModel> = {};
             if (!data.code) {
                 errors.code = 'Vui lòng nhập mã kho.';
             }
@@ -41,8 +42,8 @@ export default function AllWarehouse() {
             }
             return errors;
         },
-        onSubmit: (data: WarehouseModel) => {
-            switch (warehouseState.action) {
+        onSubmit: (data: AccountingTransactionModel) => {
+            switch (transactionState.action) {
                 case "INS":
                     dispatch(addItem(data));
                     break
@@ -52,7 +53,7 @@ export default function AllWarehouse() {
                 case "DEL":
                     warningWithConfirm({
                         title: "Xóa",
-                        text: "Bạn muốn xóa kho " + data.name + " ?",
+                        text: "Bạn muốn xóa giao dịch " + data.name + " ?",
                         confirmButtonText: "Đồng ý",
                         confirm: () => {
                             dispatch(deleteItem(data))
@@ -63,8 +64,10 @@ export default function AllWarehouse() {
 
         }
     });
-
-    const handleActionClick = (item: WarehouseModel, action: actions) => {
+    const handleRestore = () => {
+        dispatch(restoreItem(formik.values));
+    };
+    const handleActionClick = (item: AccountingTransactionModel, action: actions) => {
         if (action === "DEL") {
             warningWithConfirm({
                 title: "Xóa",
@@ -82,31 +85,38 @@ export default function AllWarehouse() {
         }
 
     }
-
-
     const handleCancel = () => {
         setIsShowDialog(false);
         formik.resetForm();
     }
-    const handleRestore = () => {
-        dispatch(restoreItem(formik.values));
-    }
     const filterList = () => {
-        let filtered = warehouseState.list
+        let filtered = transactionState.list;
         if (status !== "ALL") {
             filtered = filtered.filter(
                 item => item.disabled === (status === "DEACTIVE"))
         }
+        if (moduleTransaction !== "ALL") {
+            filtered = filtered.filter(item => {
+                if (moduleTransaction === "RETAIL") {
+                    return item.for_module === "RETAIL";
+                } else if (moduleTransaction === "PAWN") {
+                    return item.for_module === "PAWN";
+                }
+                return false;
+            });
+        }
+        console.log(filtered);
         dispatch(setFilteredList(filtered))
     }
     useEffect(() => {
         filterList()
-    }, [status])
+    }, [status, moduleTransaction])
+
 
     useEffect(() => {
-        switch (warehouseState.statusAction) {
+        switch (transactionState.statusAction) {
             case 'failed':
-                failed(warehouseState.error);
+                failed(transactionState.error);
                 dispatch(resetActionState(''));
                 break;
             case "loading":
@@ -116,23 +126,22 @@ export default function AllWarehouse() {
                 completed();
                 dispatch(resetActionState(''));
                 handleCancel()
-                //formik.setValues(warehouseState.item)
                 dispatch(fetchAll({}))
                 break;
         }
-    }, [warehouseState, dispatch])
+    }, [transactionState, dispatch])
     useEffect(() => {
-        if (warehouseState.status === 'failed') {
-            failed(warehouseState.error);
+        if (transactionState.status === 'failed') {
+            failed(transactionState.error);
         }
-        if (warehouseState.status === "completed") {
+        if (transactionState.status === "completed") {
             filterList()
 
         }
-    }, [warehouseState.status])
+    }, [transactionState.status])
     useEffect(() => {
         if (search !== undefined && search !== '') {
-            const filtered = warehouseState.list.filter(
+            const filtered = transactionState.list.filter(
                 item => item.code.toLowerCase().includes(search.toLowerCase()) ||
                     item.name.toLowerCase().includes(search.toLowerCase()) ||
                     removeVietnameseTones(item.name.toLowerCase()).includes(removeVietnameseTones(search.toLowerCase()))
@@ -146,17 +155,18 @@ export default function AllWarehouse() {
     useEffect(() => {
         dispatch(fetchAll({}))
     }, [])
+
     return (
         <div>
             <DynamicDialog visible={isShowDialog} position={undefined}
-                title={<>Kho</>}
+                title={<>Giao dịch</>}
                 body={
                     <div className="p-2">
                         <div className="row mb-2">
                             <div className="col-md-12">
-                                <label className="form-label">Mã kho<b className="text-danger">*</b></label>
+                                <label className="form-label">Mã giao dịch<b className="text-danger">*</b></label>
                                 <InputText
-                                    disabled={warehouseState.action !== 'INS'}
+                                    disabled={transactionState.action !== 'INS'}
                                     id="code"
                                     name="code"
                                     value={formik.values.code}
@@ -171,7 +181,7 @@ export default function AllWarehouse() {
 
                         <div className="row mb-2">
                             <div className="col-md-12">
-                                <label className="form-label">Tên kho<b className="text-danger">*</b></label>
+                                <label className="form-label">Tên giao dịch<b className="text-danger">*</b></label>
                                 <InputText
                                     disabled={disableInput}
                                     id="name"
@@ -191,11 +201,11 @@ export default function AllWarehouse() {
                                 <label className="form-label">Ghi chú</label>
                                 <InputTextarea
                                     disabled={disableInput}
-                                    id="description"
-                                    name="description"
-                                    value={formik.values.description}
+                                    id="note"
+                                    name="note"
+                                    value={formik.values.note}
                                     onChange={(e) => {
-                                        formik.setFieldValue('description', e.target.value);
+                                        formik.setFieldValue('note', e.target.value);
                                     }}
                                     rows={3} className='form-group'
                                     style={{ width: '100%', borderRadius: 8 }} />
@@ -206,26 +216,25 @@ export default function AllWarehouse() {
                 footer={
                     <>
                         <button type='button' className='btn btn-outline-danger' onClick={() => handleCancel()}><i className='ri-close-line'></i> <span className="list-action-label">{t("action.close")}</span></button>
-                        {warehouseState.action === 'VIE' ?
+                        {transactionState.action === 'VIE' ?
                             formik.values.disabled ?
                                 <ActionButton action={"UND"} className={""} minimumEnable={false} label={"Phục hồi"} onClick={() => handleRestore()} />
                                 : <>
                                     <ActionButton action={"UPD"} className={""} minimumEnable={false} label={"Sửa"} onClick={() => dispatch(changeAction("UPD"))} />
-                                    <ActionButton action={"DEL"} className={""} minimumEnable={false} label={"Xóa"} onClick={() => handleActionClick(warehouseState.item, "DEL")} />
+                                    <ActionButton action={"DEL"} className={""} minimumEnable={false} label={"Xóa"} onClick={() => handleActionClick(transactionState.item, "DEL")} />
                                 </>
 
                             : <></>}
-                        <FormAction action={warehouseState.action} onClick={formik.handleSubmit} />
+                        <FormAction action={transactionState.action} onClick={formik.handleSubmit} />
                     </>
                 }
                 draggable={false}
                 resizeable={false}
                 onClose={() => handleCancel()}
             />
-
             <Card
                 body={
-                    warehouseState.status === 'loading' ?
+                    transactionState.status === 'loading' ?
                         <ContentLoading.ItemCardHolder contentRows={1} items={10} image={false} uniqueKey="goldgroup-holder-item" /> :
                         <>
                             {
@@ -236,19 +245,29 @@ export default function AllWarehouse() {
                                                 uniqueKey={""}
                                                 active={item.active}
                                                 body={<>
-                                                    <div className="d-flex justify-content-between">
-                                                        <div className="d-flex">
-                                                            <div className={`fami-text-primary me-1 ${item.disabled ? 'disabled-text' : ''}`}><b>{item.name}</b></div>
-                                                            <div>{item.disabled ? <i className="ri-close-line my-error"></i> : <i className="ri-check-line my-success"></i>}</div>
+                                                    <div className="row">
+                                                        <div className="d-flex justify-content-between col-sm-3">
+                                                            <div className="d-flex">
+                                                                <div className={`fami-text-primary me-1 ${item.disabled ? 'disabled-text' : ''}`}><b>{item.name}</b></div>
+                                                                <div>{item.disabled ? <i className="ri-close-line my-error"></i> : <i className="ri-check-line my-success"></i>}</div>
+                                                            </div>
                                                         </div>
-
+                                                        <div className="col-sm-9">
+                                                            <div className="d-flex">
+                                                                <div className="fami-text-primary me-1"><b>Phê duyệt</b></div>
+                                                                {
+                                                                    item.approve_enable ? <i className="ri-close-line my-error"></i> : <i className="ri-check-line my-success"></i>
+                                                                }
+                                                            </div>
+                                                        </div>
                                                     </div>
+
                                                     <div className="row">
                                                         <div className="col-sm-3">
                                                             <div><i className="ri-codepen-line fami-text-primary icon-on-list"></i> {item.code}</div>
                                                         </div>
                                                         <div className="col-sm-9">
-                                                            <div><i className="ri-sticky-note-line fami-text-primary icon-on-list"></i> {item.description}</div>
+                                                            <div><i className="ri-sticky-note-line fami-text-primary icon-on-list"></i> {item.note}</div>
                                                         </div>
                                                     </div>
                                                 </>}
@@ -271,23 +290,28 @@ export default function AllWarehouse() {
                                                 setStatus(e.value)
                                             }
                                             } />
-
+                                    </div>
+                                </div>
+                                <div className="row pb-2">
+                                    <div className="form-group col-sm-12">
+                                        <label htmlFor="from-date">Tùy chọn:</label>
+                                        <ModuleTransactionDropdown
+                                            value={moduleTransaction} onChange={(e: DropdownChangeEvent) => {
+                                                setModuleTransaction(e.value)
+                                            }
+                                            } />
                                     </div>
                                 </div>
                                 <EmptyHeight height={30} />
                             </OverlayPanel>
                         </>
                 }
-                title={<div style={{ cursor: "pointer" }} onClick={(e) => op.current.toggle(e)}><i className="ri-filter-2-fill"></i> Danh sách kho</div>}
-                tool={
-                    <div className="d-flex">
-                        <ActionButton action={"INS"} className={""} onClick={() => handleActionClick(WarehouseModel.initial(), "INS")} minimumEnable={true} label={"Thêm"} />
-                    </div>
-                }
+                title={<div style={{ cursor: "pointer" }} onClick={(e) => op.current.toggle(e)}><i className="ri-filter-2-fill"></i> Danh sách giao dịch</div>}
                 isPadding={true}
                 className={""}
             />
             <EmptyHeight height={48} />
         </div>
-    );
+    )
 }
+

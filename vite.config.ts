@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
     server:{
-        port:5186
+        port:5188
     },
     plugins: [react()],
     css: {

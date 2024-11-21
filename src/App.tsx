@@ -10,7 +10,8 @@ import { HttpService } from './services/http/HttpService'
 import Home from './views/Home'
 const SignIn = React.lazy(() => import('./views/authen/Signin'));
 const AllProfile = React.lazy(() => import('./views/profile/AllProfile'));
-
+const GoldType = React.lazy(() => import('./views/goldtype/AllGoldType'));
+const GoldTypeItem = React.lazy(() => import('./views/goldtype/GoldTypeItem'));
 const AllWarehouse = React.lazy(() => import('./views/warehouse/AllWarehouse'));
 const DashBoard = React.lazy(() => import('./views/dashboard/Dashboard'));
 const GoldPrice = React.lazy(() => import('./views/dashboard/GoldPrice'));
@@ -98,7 +99,14 @@ const pageList = [
         element: <Layout children={<AllSupplier />} target={'/supplier'}></Layout>
     },
 
-
+    {
+        path: "/goldtype",
+        element: <Layout children={<GoldType/>} target={'/goldtype'}></Layout>
+    },
+    {
+        path: "/goldtype-item",
+        element: <Layout children={<GoldTypeItem/>} target={'/goldtype'}></Layout>
+    },
     {
         path: "/tpawn",
         element: <Layout children={<AllTempPawn />} target={'/tpawn'}></Layout>

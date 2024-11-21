@@ -25,7 +25,7 @@
         "F-HISTORY": "Nhật ký dữ liệu",
         "F-PARAM": "Tham số hệ thống",
         "F-FINGERPRINT": "Nghiệp vụ vân tay",
-        "F-TRANSACTION": "Nghiệp vụ tiền",
+        "F-TRANSACTION": "Nghiệp vụ Thu-Chi",
         "CATEGORY": "DANH MỤC",
         "F-PRODUCT": "Sản phẩm",
         "F-GOLDTYPE": "Loại vàng",
@@ -63,8 +63,7 @@
         "F-CASHSUMMARY": "Sổ tổng hợp",
         "BANK": "SỔ PHỤ NGÂN HÀNG",
         "F-BANKDETAIL": "Sổ chi tiết",
-        "F-BANKSUMMARY": "Sổ tổng hợp",
-        "F-TRANSACTION": "Danh sách giao dịch"
+        "F-BANKSUMMARY": "Sổ tổng hợp"
     },
     "status": {
         "loading": "Đang tải...",

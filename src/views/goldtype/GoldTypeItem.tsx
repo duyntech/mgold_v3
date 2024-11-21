@@ -356,8 +356,8 @@ export default function AddGoldType() {
             goldtypeState.histories.forEach((item, index) => {
                 const dateTime = moment(item.datetime, "DD-MM-YYYY HH:mm").toLocaleString();
                 newLabels.push(dateTime);
-                newBuyPrices[index] = item.new_data.buy_price;
-                newSellPrices[index] = item.new_data.sell_price;
+                newBuyPrices[index] = Number(item.new_data.buy_price / 1000).toFixed(0);
+                newSellPrices[index] = Number(item.new_data.sell_price / 1000).toFixed(0);
             });
 
             setLabels(newLabels);

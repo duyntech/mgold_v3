@@ -237,16 +237,7 @@ export type dropdownItem = {
     value: string,
     parent: boolean
 }
-export type draggableProps = {
-    id: UniqueIdentifier,
-    children: React.ReactNode,
-    onClick: VoidFunction
-}
-export type droppableProps = {
-    id: UniqueIdentifier;
-    title: string,
-    children: React.ReactNode;
-}
+export type moduleFeatures = "RETAIL" | "WHOLESALE" | "PAWN" | "GENERAL"
 export type featureProps = {
     retail: FeatureModel[];
     wholesale: FeatureModel[];

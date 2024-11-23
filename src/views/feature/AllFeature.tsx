@@ -4,30 +4,26 @@ import { useEffect, useState } from "react";
 import { completed, failed, processing } from "../../utils/alert";
 import { FeatureModel } from "../../model";
 import { useFormik } from "formik";
-import { Droppable, Draggable } from "../../components/commons/DragDrop";
+import { Droppable } from "../../components/commons/DragDrop";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
-import { actions, featureProps } from "../../types";
-import { DynamicDialog, EmptyHeight } from "../../components/commons";
-import { isValidAction } from "../../utils/util";
+import { moduleFeatures } from "../../types";
+import { ContentLoading, DynamicDialog, EmptyHeight } from "../../components/commons";
 import { InputText } from "primereact/inputtext";
 import { getFormErrorMessageString, isFormFieldInvalid } from "../../utils/validate";
 import { classNames } from "primereact/utils";
 import ActionButton from "../../components/action/ActionButton";
 import FormAction from "../../components/commons/FormAction";
 import { t } from "i18next";
+export type ColumnType = {
+    id: moduleFeatures;
+    title: string;
+};
 
 const AllFeature = () => {
     const dispatch = useAppDispatch();
-    const limitedActions = useAppSelector((state) => state.sidebar.actions)
     const featureState = useAppSelector((state) => state.feature);
-    const [isDragging, setIsDragging] = useState(false);
     const [isShowDialog, setIsShowDialog] = useState(false);
-    const [feature, setFeature] = useState<featureProps>({
-        retail: [],
-        wholesale: [],
-        pawn: [],
-        general: [],
-    });
+    const [dataFeature, setDataFeature] = useState<FeatureModel[]>([])
     const formik = useFormik<FeatureModel>({
         initialValues: FeatureModel.initial(),
         onSubmit: (data: FeatureModel) => {
@@ -63,81 +59,37 @@ const AllFeature = () => {
     useEffect(() => {
         dispatch(fetchAll({}))
     }, [])
-    useEffect(() => {
-        const newFeatures: featureProps = {
-            retail: [],
-            wholesale: [],
-            pawn: [],
-            general: [],
-        };
-
-        featureState.list.forEach((item) => {
-            switch (item.module) {
-                case "RETAIL":
-                    newFeatures.retail.push(item);
-                    break;
-                case "WHOLESALE":
-                    newFeatures.wholesale.push(item);
-                    break;
-                case "PAWN":
-                    newFeatures.pawn.push(item);
-                    break;
-                default:
-                    newFeatures.general.push(item);
-            }
-        });
-
-        setFeature(newFeatures);
-    }, [featureState.list]);
-    const handleDragEnd = (event: DragEndEvent) => {
+    function handleDragEnd(event: DragEndEvent) {
         const { active, over } = event;
-        if (isValidAction(limitedActions, "UPD") && over) {
-            setFeature((prevFeatures) => {
-                const sourceKey = Object.keys(prevFeatures).find((key) =>
-                    prevFeatures[key as keyof featureProps].some((item) => item.id === active.id)
-                ) as keyof featureProps | undefined;
 
-                const destinationKey = over.id as keyof featureProps;
+        if (!over) return;
 
-                if (!sourceKey || !destinationKey) return prevFeatures;
+        const activeId = active.id as string;
+        const module = over.id as FeatureModel['module'];
 
-                const sourceList = [...prevFeatures[sourceKey]];
-                const destinationList = [...prevFeatures[destinationKey]];
 
-                const draggedItemIndex = sourceList.findIndex((item) => item.id === active.id);
-                if (draggedItemIndex >= 0) {
-                    const [draggedItem] = sourceList.splice(draggedItemIndex, 1);
-                    destinationList.push(draggedItem);
-                    const payload = {
-                        id: draggedItem.id,
-                        name: draggedItem.name,
-                        module: String(over.id).toLocaleUpperCase(),
-                        icon: draggedItem.icon,
-                    }
-                    dispatch(editItem(payload));
-                }
-                return {
-                    ...prevFeatures,
-                    [sourceKey]: sourceList,
-                    [destinationKey]: destinationList,
-                };
-            });
+        setDataFeature(() =>
+            dataFeature.map((feature) => feature.id === activeId
+                ? {
+                    ...feature,
+                    module
+                } : feature)
+        )
+        const findFeature = dataFeature.find((feature) => feature.id === activeId)
+        if (findFeature) {
+            const payload = {
+                id: findFeature.id,
+                name: findFeature.name,
+                module: String(module).toLocaleUpperCase(),
+                icon: findFeature.icon,
+            }
+            dispatch(editItem(payload));
         }
-        setIsDragging(false);
-    };
-    // const handleDragStart = (e: React.DragEvent) => {
-    //     e.preventDefault();
-    //     setIsDragging(true);
-    //     document.body.style.userSelect = 'none';
-    // };
-    const handleActionClick = (item: FeatureModel, action: actions) => {
-        dispatch(changeAction(action));
-        setIsShowDialog(true);
-        formik.setValues(item);
     }
     const filterList = () => {
         let filtered = featureState.list;
-        dispatch(setFilteredList(filtered))
+        setDataFeature(filtered);
+        dispatch(setFilteredList(filtered));
     }
     useEffect(() => {
         filterList()
@@ -150,6 +102,13 @@ const AllFeature = () => {
             filterList()
         }
     }, [featureState.status])
+    const COLUMNS: ColumnType[] = [
+        { id: 'RETAIL', title: 'Bán sỉ' },
+        { id: 'WHOLESALE', title: 'Bán lẻ' },
+        { id: 'PAWN', title: 'Cầm đồ' },
+        { id: 'GENERAL', title: 'Chung' },
+    ];
+
     return (
         <>
             <DynamicDialog visible={isShowDialog} position={undefined}
@@ -201,31 +160,35 @@ const AllFeature = () => {
                 resizeable={false}
                 onClose={() => handleCancel()}
             />
-            <div className="container mt-5">
+            <div className="container">
                 <h2 className="text-center mb-4">Danh sách chức năng</h2>
-                <DndContext onDragEnd={handleDragEnd}>
-                    <div className="row gy-4">
-                        {Object.entries(feature).map(([key, list]) => (
-                            <div key={key} className="col-md-3">
-                                <Droppable id={key}
-                                    title={
-                                        key === "retail" ? "Bán lẻ" : key === "wholesale" ? "Bán sỉ" : key === "pawn" ? "Cầm đồ" : "Chung"
-                                    }
-                                >
-                                    {list.map((item, index) => {
-                                        return (
-                                            <Draggable key={index} id={item.id} onClick={() => !isDragging && isValidAction(limitedActions, "UPD") && handleActionClick(item, "VIE")}>
-                                                {item.name}
-                                            </Draggable>
-                                        )
-                                    })}
-                                </Droppable>
-                            </div>
-                        ))}
-                    </div>
-                </DndContext>
-                <EmptyHeight height={48} />
+                <div style={{
+                    display: "grid",
+                    gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                    gap: "16px",
+                }}>
+                    {
+                        featureState.status === "loading" ?
+                            <>
+                                <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
+                            </>
+                            : <DndContext onDragEnd={handleDragEnd}>
+                                {COLUMNS.map((column) => {
+                                    return (
+                                        <Droppable
+                                            key={column.id}
+                                            module={column.id}
+                                            features={dataFeature.filter((item) => item.module === column.id)}
+                                            setIsShowDialog={setIsShowDialog}
+                                            formik={formik}
+                                        />
+                                    )
+                                })}
+                            </DndContext>
+                    }
+                </div>
             </div>
+            <EmptyHeight height={48} />
         </>
     )
 }

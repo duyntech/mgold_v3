@@ -686,11 +686,3 @@ div:where(.swal2-container).swal2-center>.swal2-popup {
   border-radius: 30px;
   text-align: center;
 }
-.no-overlay {
-  position: relative;
-  z-index: 9999;    
-}
-.other-element {
-  position: relative;
-  z-index: 1;      
-}

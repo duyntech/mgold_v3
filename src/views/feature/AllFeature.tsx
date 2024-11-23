@@ -76,7 +76,7 @@ const AllFeature = () => {
                 } : feature)
         )
         const findFeature = dataFeature.find((feature) => feature.id === activeId)
-        if (findFeature) {
+        if (findFeature && findFeature.module !== module) {
             const payload = {
                 id: findFeature.id,
                 name: findFeature.name,
@@ -165,11 +165,15 @@ const AllFeature = () => {
                 <div style={{
                     display: "grid",
                     gridTemplateColumns: "1fr 1fr 1fr 1fr",
-                    gap: "16px",
+                    flexWrap: 'wrap',
+                    gap: "10px",
                 }}>
                     {
                         featureState.status === "loading" ?
                             <>
+                                <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
+                                <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
+                                <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
                                 <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
                             </>
                             : <DndContext onDragEnd={handleDragEnd}>

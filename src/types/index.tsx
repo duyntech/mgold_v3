@@ -1,7 +1,6 @@
 import { MenuItem } from "primereact/menuitem"
 import { DropdownActionModel, DropdownItemModel } from "../model/Dropdown.model"
 import { FormikProps } from "formik"
-import { UniqueIdentifier } from "@dnd-kit/core"
 import { FeatureModel } from "../model"
 
 export interface ComponentFormikProps {

@@ -17,20 +17,12 @@ type FeatureColumnProps = {
     formik: FormikProps<any>
 }
 export const Draggable = ({ feature, onClick }: FeatureCardProps) => {
-    const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({ id: feature.id });
-    const style = transform
-        ? {
-            transform: `translate(${transform.x}px, ${transform.y}px)`,
-            cursor: 'grabbing',
-            position: 'absolute' as 'absolute',
-            zIndex: isDragging ? 9999 : undefined,
-        }
-        : undefined;
+    const { attributes, listeners, setNodeRef } = useDraggable({ id: feature.id });
     return (
         <>
             <div
                 className="alert alert-info mb-2 w-100 d-flex align-items-center justify-content-between"
-                style={style}
+                // style={style}
                 onClick={onClick}
             >
                 {feature.name}
@@ -41,6 +33,7 @@ export const Draggable = ({ feature, onClick }: FeatureCardProps) => {
                     {...listeners}
                     {...attributes} />
             </div>
+
         </>
     );
 };
@@ -56,25 +49,26 @@ export const Droppable = ({ module, features, setIsShowDialog, formik }: Feature
     }
     return (
         <div
-            className={`card shadow-sm`}
+            className={`card shadow-sm z-0`}
             style={{
                 position: 'relative',
                 display: 'flex',
-                transition: 'box-shadow 0.2s ease-in-out',
                 border: isOver ? '1px solid #007bff' : "1px solid transparent",
             }}
         >
             <div className="card-header bg-primary text-white text-center">
                 {module === "RETAIL" ? "Bán lẻ" : module === "WHOLESALE" ? "Bán sỉ" : module === "PAWN" ? "Cầm đồ" : "Chung"}
             </div>
-            <div ref={setNodeRef} className="card-body" >
+            <div ref={setNodeRef} className="card-body z-0" >
                 {
                     features.map(feature => {
-                        return <Draggable feature={feature} key={feature.id} onClick={() => {
-                            if (isValidAction(limitedActions, "UPD")) {
-                                handleActionClick(feature, 'VIE');
-                            }
-                        }} />
+                        return <>
+                            <Draggable feature={feature} key={feature.id} onClick={() => {
+                                if (isValidAction(limitedActions, "UPD")) {
+                                    handleActionClick(feature, 'VIE');
+                                }
+                            }} />
+                        </>
                     })
                 }
             </div>

@@ -5,7 +5,7 @@ import { completed, failed, processing } from "../../utils/alert";
 import { FeatureModel } from "../../model";
 import { useFormik } from "formik";
 import { Droppable } from "../../components/commons/DragDrop";
-import { DndContext, DragEndEvent } from "@dnd-kit/core";
+import { DndContext, DragEndEvent, DragOverlay } from "@dnd-kit/core";
 import { moduleFeatures } from "../../types";
 import { ContentLoading, DynamicDialog, EmptyHeight } from "../../components/commons";
 import { InputText } from "primereact/inputtext";
@@ -24,6 +24,7 @@ const AllFeature = () => {
     const featureState = useAppSelector((state) => state.feature);
     const [isShowDialog, setIsShowDialog] = useState(false);
     const [dataFeature, setDataFeature] = useState<FeatureModel[]>([])
+    const [activeFeature, setActiveFeature] = useState<FeatureModel | null>(null);
     const formik = useFormik<FeatureModel>({
         initialValues: FeatureModel.initial(),
         onSubmit: (data: FeatureModel) => {
@@ -160,13 +161,14 @@ const AllFeature = () => {
                 resizeable={false}
                 onClose={() => handleCancel()}
             />
-            <div className="container">
+            <div className="container relative">
                 <h2 className="text-center mb-4">Danh sách chức năng</h2>
                 <div style={{
                     display: "grid",
                     gridTemplateColumns: "1fr 1fr 1fr 1fr",
                     flexWrap: 'wrap',
                     gap: "10px",
+                    position: 'relative',
                 }}>
                     {
                         featureState.status === "loading" ?
@@ -176,7 +178,14 @@ const AllFeature = () => {
                                 <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
                                 <ContentLoading.ItemCardHolder items={4} contentRows={2} image={false} uniqueKey={""} />
                             </>
-                            : <DndContext onDragEnd={handleDragEnd}>
+                            : <DndContext onDragStart={(event) => {
+                                const draggedFeature = dataFeature.find(item => item.id === event.active.id);
+                                setActiveFeature(draggedFeature || null);
+                            }}
+                                onDragEnd={(event) => {
+                                    handleDragEnd(event);
+                                    setActiveFeature(null);
+                                }}>
                                 {COLUMNS.map((column) => {
                                     return (
                                         <Droppable
@@ -188,6 +197,20 @@ const AllFeature = () => {
                                         />
                                     )
                                 })}
+                                <DragOverlay>
+                                    {
+                                        <div
+                                            className="alert alert-info mb-2 d-flex align-items-center justify-content-between"
+                                            style={{ width: '200px' }}
+                                        >
+                                            {activeFeature?.name}
+                                            <i
+                                                className="ri-drag-move-line"
+                                                style={{ cursor: "grab" }}
+                                            />
+                                        </div>
+                                    }
+                                </DragOverlay>
                             </DndContext>
                     }
                 </div>

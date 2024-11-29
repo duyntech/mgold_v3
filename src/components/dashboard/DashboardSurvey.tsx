@@ -94,26 +94,108 @@ export default function DashboardSurvey() {
         id: '_id',
         localData: []
     })
+    const [revenueGeneralSource, setRevenueGeneral] = useState<any>({
+        datatype: "json",
+        dataFields: [
+            { name: "web", type: "float" },
+            { name: "sell", type: "float" },
+            { name: "buy", type: "float" },
+            { name: "exchange", type: "float" },
+        ],
+        id: '_id',
+        localData: []
+    })
+
+    const [columnsRevenueGeneral, _setColumnsRevenueGeneral] = useState<any>([
+        {
+            text: 'Website', align: 'center', datafield: 'web', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
+        },
+        {
+            text: 'Bán', align: 'center', datafield: 'sell', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
+        },
+        {
+            text: 'Mua', align: 'center', datafield: 'buy', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
+        },
+        {
+            text: 'Đổi', align: 'center', datafield: 'exchange', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
+        },
+    ])
     const [columnsRevenueByMonthsType, _setColumnsRevenueByMonthsType] = useState<any>([
         {
-            text: 'Doanh thu tổng', align: 'center', datafield: 'amount', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
+            text: 'Doanh thu tổng', align: 'center', datafield: 'amount', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
         },
         {
-            text: 'Doanh thu vàng', align: 'center', datafield: 'gold', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
+            text: 'Doanh thu vàng', align: 'center', datafield: 'gold', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
         },
         {
-            text: 'Công', align: 'center', datafield: 'wage', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
+            text: 'Công', align: 'center', datafield: 'wage', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
         },
         {
-            text: 'Chiết khấu', align: 'center', datafield: 'discount', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
+            text: 'Chiết khấu', align: 'center', datafield: 'discount', cellsalign: 'right', type: 'float', width: '25%',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsformat: 'n',
+            cellclassname: "fw-bold"
         },
     ])
     const [percentGoldTypeSource, setPercentGoldTypeSource] = useState<any>({
@@ -123,6 +205,9 @@ export default function DashboardSurvey() {
             { name: "quantity", type: "float" },
             { name: "weight", type: "float" },
             { name: "amount", type: "float" },
+            { name: "quantityVirtual", type: "float" },
+            { name: "weightVirtual", type: "float" },
+            { name: "amountVirtual", type: "float" },
         ],
         localData: []
     })
@@ -133,6 +218,9 @@ export default function DashboardSurvey() {
             { name: "quantity", type: "float" },
             { name: "weight", type: "float" },
             { name: "amount", type: "float" },
+            { name: "quantityVirtual", type: "float" },
+            { name: "weightVirtual", type: "float" },
+            { name: "amountVirtual", type: "float" },
         ],
         localData: []
     })
@@ -143,15 +231,37 @@ export default function DashboardSurvey() {
             { name: "quantity", type: "float" },
             { name: "weight", type: "float" },
             { name: "amount", type: "float" },
+            { name: "quantityVirtual", type: "float" },
+            { name: "weightVirtual", type: "float" },
+            { name: "amountVirtual", type: "float" },
         ],
         localData: []
     })
 
     const [columnsPercentType, _setColumnsPercentType] = useState<any>([
         { text: 'Loại', align: 'center', datafield: 'type', cellsalign: 'left' },
-        { text: 'Số lượng', align: 'center', datafield: 'quantity', cellsalign: 'right' },
-        { text: 'Trọng lượng', align: 'center', datafield: 'weight', cellsalign: 'right' },
-        { text: 'Doanh thu', align: 'center', datafield: 'amount', cellsalign: 'right' },
+        { text: 'Số lượng(%)', align: 'center', datafield: 'quantity', cellsalign: 'right', aggregates: ['count'] },
+        {
+            text: 'Trọng lượng(%)', align: 'center', datafield: 'weight', cellsalign: 'right'
+        },
+        {
+            text: 'Doanh thu(%)', align: 'center', datafield: 'amount', cellsalign: 'right'
+        },
+        { text: 'Số lượng', align: 'center', datafield: 'quantityVirtual', cellsalign: 'right' },
+        {
+            text: 'Trọng lượng', align: 'center', datafield: 'weightVirtual', cellsalign: 'right'
+        },
+        {
+            text: 'Doanh thu', align: 'center', datafield: 'amountVirtual', cellsalign: 'right', aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold text-danger">' + value + '</div>'
+                return renderstring;
+            },
+            cellsrenderer: gridCellNumberFormat,
+            cellclassname: "text-danger fw-bold",
+            cellsformat: 'n'
+        },
     ])
     const [columnsBuy, _setColumnsBuy] = useState<any>([
         { text: 'Ngày', align: 'center', datafield: 'date', cellsalign: 'left', cellsformat: "dd-MM-yyyy", filtertype: "date", width: 75 },
@@ -190,7 +300,7 @@ export default function DashboardSurvey() {
     ])
     const [columnsSell, _setColumnsSell] = useState<any>([
         { text: 'Ngày', align: 'center', datafield: 'date', cellsalign: 'left', cellsformat: "dd-MM-yyyy", filtertype: "date", width: 75 },
-        { text: 'Hình thức', align: 'center', datafield: 'from', cellsalign: 'left' },
+        { text: 'Hình thức', align: 'center', datafield: 'from', cellsalign: 'left', aggregates: ['count'] },
         { text: 'Loại vàng', align: 'center', datafield: 'gold_type', cellsalign: 'left' },
         {
             text: 'Trọng lượng vàng', align: 'center', datafield: 'gold_weight', cellsalign: 'right', aggregates: ['sum'],
@@ -277,6 +387,7 @@ export default function DashboardSurvey() {
                     setPercentProductTypeSource(reportState.percentProductTypes)
                     setPercentTagTypeSource(reportState.percentTags)
                     setRevenueByMonthsSource(reportState.revenueByMonths)
+                    setRevenueGeneral(reportState.revenues)
                     setTimeout(() => {
                         if (grid.current !== null) {
                             grid.current.updatebounddata('cells')
@@ -299,12 +410,14 @@ export default function DashboardSurvey() {
                     percentTagTypeSource.localData = reportState.percentTags
                     sellSource.localData = reportState.rawData.news
                     revenueByMonthsSource.localData = reportState.revenueByMonths
+                    revenueGeneralSource.localData = reportState.revenues
                     setBuySource(buySource)
                     setSellSource(sellSource)
                     setPercentGoldTypeSource(percentGoldTypeSource)
                     setPercentProductTypeSource(percentProductTypeSource)
                     setPercentTagTypeSource(percentTagTypeSource)
                     setRevenueByMonthsSource(revenueByMonthsSource)
+                    setRevenueGeneral(revenueGeneralSource)
                     setTimeout(() => {
                         if (grid.current !== null) {
                             grid.current.updatebounddata('cells')
@@ -312,10 +425,19 @@ export default function DashboardSurvey() {
                     }, 300)
                     dispatch(clearRevenueDetailStatus())
                     break;
-
             }
         }
     }, [reportState.revenueDetailStatus])
+    console.log({
+        buyData: reportState.buyData,
+        percentGoldTypes: reportState.percentGoldTypes,
+        percentProductTypes: reportState.percentProductTypes,
+        percentTags: reportState.percentTags,
+        news: reportState.rawData.news,
+        revenueByMonths: reportState.revenueByMonths,
+        reportState
+    });
+
     useEffect(() => {
         fetchList()
         dispatch(fetchCategories({ categories: ["product_types", "tags"] }))
@@ -1414,6 +1536,25 @@ export default function DashboardSurvey() {
                                         showsortmenuitems={false}
                                         source={new jqx.dataAdapter(revenueByMonthsSource)}
                                         columns={columnsRevenueByMonthsType}
+                                        showaggregates={true} showstatusbar={true} statusbarheight={25}
+                                        localization={{ emptydatastring: 'Không có dữ liệu', decimalseparator: ',', thousandsseparator: '.', }}
+                                        pageable={false} autoheight={false} sortable={true} altrows={true}
+                                        enabletooltips={false} editable={false} selectionmode={'singlerow'}
+                                    />} />
+                                <LoadingDiv
+                                    className="pt-2 z-0"
+                                    loading={reportState.revenueStatus.status === "loading"}
+                                    body={<JqxGrid
+                                        disabled={reportState.revenueStatus.status === "loading"}
+                                        ref={grid}
+                                        theme="bootstrap"
+                                        width={"100%"}
+                                        height={300}
+                                        filterable={true}
+                                        showfilterrow={true}
+                                        showsortmenuitems={false}
+                                        source={new jqx.dataAdapter(revenueGeneralSource)}
+                                        columns={columnsRevenueGeneral}
                                         showaggregates={true} showstatusbar={true} statusbarheight={25}
                                         localization={{ emptydatastring: 'Không có dữ liệu', decimalseparator: ',', thousandsseparator: '.', }}
                                         pageable={false} autoheight={false} sortable={true} altrows={true}

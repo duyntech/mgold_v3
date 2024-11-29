@@ -37,18 +37,27 @@ interface ReportState {
     quantity: number;
     weight: number;
     amount: number;
+    quantityVirtual: number;
+    weightVirtual: number;
+    amountVirtual: number;
   }[];
   percentProductTypes: {
     type: string;
     quantity: number;
     weight: number;
     amount: number;
+    quantityVirtual: number;
+    weightVirtual: number;
+    amountVirtual: number;
   }[];
   percentTags: {
     type: string;
     quantity: number;
     weight: number;
     amount: number;
+    quantityVirtual: number;
+    weightVirtual: number;
+    amountVirtual: number;
   }[];
   revenueByMonths: {
     month: string;

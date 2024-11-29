@@ -76,7 +76,6 @@ export default function DashboardSurvey() {
             { name: "from", type: "string" },
             { name: "gold_type", type: "string" },
             { name: "gold_weight", type: "float" },
-            { name: "quantity", type: "int" },
             { name: "exchange_rate", type: "float" },
             { name: "amount", type: "float" },
             { name: "wage", type: "float" },
@@ -113,28 +112,6 @@ export default function DashboardSurvey() {
         },
         {
             text: 'Chiết khấu', align: 'center', datafield: 'discount', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
-        },
-    ])
-    const [columnsSell, _setColumnsSell] = useState<any>([
-        { text: 'Ngày', align: 'center', datafield: 'date', cellsalign: 'left', cellsformat: "dd-MM-yyyy", filtertype: "date", width: 75 },
-        { text: 'Hình thức', align: 'center', datafield: 'from', cellsalign: 'left' },
-        { text: 'Loại vàng', align: 'center', datafield: 'gold_type', cellsalign: 'left' },
-        { text: 'Trọng lượng vàng', align: 'center', datafield: 'gold_weight', cellsalign: 'right' },
-        { text: 'Số lượng', align: 'center', datafield: 'quantity', cellsalign: 'right' },
-        {
-            text: 'Tỷ giá hối đoái', align: 'center', datafield: 'exchange_rate', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
-        },
-        {
-            text: 'Doanh thu', align: 'center', datafield: 'amount', cellsalign: 'right', type: 'float',
-            cellsrenderer: gridCellNumberFormat,
-            cellsformat: 'n'
-        },
-        {
-            text: 'Tiền công', align: 'center', datafield: 'wage', cellsalign: 'right', type: 'float',
             cellsrenderer: gridCellNumberFormat,
             cellsformat: 'n'
         },
@@ -209,6 +186,56 @@ export default function DashboardSurvey() {
             cellsrenderer: gridCellNumberFormat,
             cellsformat: 'n',
             cellclassname: "text-danger fw-bold"
+        },
+    ])
+    const [columnsSell, _setColumnsSell] = useState<any>([
+        { text: 'Ngày', align: 'center', datafield: 'date', cellsalign: 'left', cellsformat: "dd-MM-yyyy", filtertype: "date", width: 75 },
+        { text: 'Hình thức', align: 'center', datafield: 'from', cellsalign: 'left' },
+        { text: 'Loại vàng', align: 'center', datafield: 'gold_type', cellsalign: 'left' },
+        {
+            text: 'Trọng lượng vàng', align: 'center', datafield: 'gold_weight', cellsalign: 'right', aggregates: ['sum'],
+            cellclassname: "fw-bold",
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+        },
+        {
+            text: 'Tỷ giá hối đoái', align: 'center', datafield: 'exchange_rate', cellsalign: 'right', type: 'float',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsrenderer: gridCellNumberFormat,
+            cellsformat: 'n',
+            cellclassname: "fw-bold",
+        },
+        {
+            text: 'Doanh thu', align: 'center', datafield: 'amount', cellsalign: 'right', type: 'float',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold text-danger">' + value + '</div>'
+                return renderstring;
+            },
+            cellsrenderer: gridCellNumberFormat,
+            cellclassname: "text-danger fw-bold",
+            cellsformat: 'n'
+        },
+        {
+            text: 'Tiền công', align: 'center', datafield: 'wage', cellsalign: 'right', type: 'float',
+            aggregates: ['sum'],
+            aggregatesrenderer: (aggregates: any, _column: any, _element: any): string => {
+                const value = aggregates['sum'] !== undefined ? aggregates['sum'] : 0;
+                const renderstring = '<div class="w-100 h-100 text-end p-1 fw-bold">' + value + '</div>'
+                return renderstring;
+            },
+            cellsrenderer: gridCellNumberFormat,
+            cellsformat: 'n',
+            cellclassname: "fw-bold",
         },
     ])
     const selectTemplate = (option: any) => {
